@@ -79,12 +79,12 @@
 
 
 
-<meta name="description" content="MT5757　　  标签（空格分隔）： MT5757  Tips:ignore disperison may lead to include unsignificant covariate overdispersed data — quasi-AIC$$QAIC=-((2log-likelihood)/dispersion-parameter- estimate)+2k$$k=the number">
+<meta name="description" content="MT5757　　   标签（空格分隔）： MT5757  Tips:ignore disperison may lead to include unsignificant covariate overdispersed data — quasi-AIC  $$QAIC=-((2log-likelihood)/dispersion-parameter- estimate)+2k$$ k=the nu">
 <meta property="og:type" content="article">
 <meta property="og:title" content="fangyi&#39;s Rev">
 <meta property="og:url" content="http://yoursite.com/2018/05/07/MT5757 (1)/index.html">
 <meta property="og:site_name" content="fangyi&#39;s Rev">
-<meta property="og:description" content="MT5757　　  标签（空格分隔）： MT5757  Tips:ignore disperison may lead to include unsignificant covariate overdispersed data — quasi-AIC$$QAIC=-((2log-likelihood)/dispersion-parameter- estimate)+2k$$k=the number">
+<meta property="og:description" content="MT5757　　   标签（空格分隔）： MT5757  Tips:ignore disperison may lead to include unsignificant covariate overdispersed data — quasi-AIC  $$QAIC=-((2log-likelihood)/dispersion-parameter- estimate)+2k$$ k=the nu">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://i.stack.imgur.com/alkeM.png">
 <meta property="og:image" content="https://i.stack.imgur.com/w0ldM.png">
@@ -92,10 +92,10 @@
 <meta property="og:image" content="https://img-blog.csdn.net/20170815211631865?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHp3MTk5MjAzMjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
 <meta property="og:image" content="http://yoursite.com/Users/fred/Workspace/github/hexo/source/_posts/1525710077850.jpg">
 <meta property="og:image" content="http://yoursite.com/Users/fred/Workspace/github/hexo/source/_posts/run.png">
-<meta property="og:updated_time" content="2018-05-07T18:16:15.180Z">
+<meta property="og:updated_time" content="2018-05-07T18:42:40.993Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="fangyi&#39;s Rev">
-<meta name="twitter:description" content="MT5757　　  标签（空格分隔）： MT5757  Tips:ignore disperison may lead to include unsignificant covariate overdispersed data — quasi-AIC$$QAIC=-((2log-likelihood)/dispersion-parameter- estimate)+2k$$k=the number">
+<meta name="twitter:description" content="MT5757　　   标签（空格分隔）： MT5757  Tips:ignore disperison may lead to include unsignificant covariate overdispersed data — quasi-AIC  $$QAIC=-((2log-likelihood)/dispersion-parameter- estimate)+2k$$ k=the nu">
 <meta name="twitter:image" content="https://i.stack.imgur.com/alkeM.png">
 
 
@@ -306,12 +306,15 @@
       
 
       
-        <h1 id="MT5757"><a href="#MT5757" class="headerlink" title="MT5757　　"></a>MT5757　　</h1><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+        <h1 id="MT5757"><a href="#MT5757" class="headerlink" title="MT5757　　"></a>MT5757　　</h1><script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 <p>标签（空格分隔）： MT5757</p>
 <hr>
 <p>Tips:ignore disperison may lead to include unsignificant covariate</p>
-<p>overdispersed data — quasi-AIC<br>$$QAIC=-((2<em>log-likelihood)/dispersion-parameter- estimate)+2</em>k$$<br>k=the number of model coefficients (intercept and slope coefficients+1 for the dispersion parameter estimare).</p>
+<p>overdispersed data — quasi-AIC </p>
+<p>$$QAIC=-((2log-likelihood)/dispersion-parameter- estimate)+2k$$</p>
+<p>k=the number of model coefficients (intercept and slope coefficients+1 for the dispersion parameter estimare).</p>
 <hr>
 <h2 id="Model-assumptions"><a href="#Model-assumptions" class="headerlink" title="Model assumptions:"></a>Model assumptions:</h2><ol>
 <li>Collinearity</li>
@@ -331,9 +334,9 @@
 <h2 id="Model-complexity"><a href="#Model-complexity" class="headerlink" title="Model complexity:"></a>Model complexity:</h2><blockquote>
 <p><strong>signal:</strong> the underlying mean function of the process<br><strong>noise:</strong> the variablity of the points about the underlying mean function</p>
 </blockquote>
-<p>###Overly complex models<br>has many parameters and so will model both the signal and the noise in the input data.<br>low bias and high variance </p>
-<p>###Overly simplistic models<br>has too few parameters and models neither the signal nor the noise elements in the input data very well.<br>high bias and low </p>
-<p>###The bias-variance trade-off<br><img src="https://i.stack.imgur.com/alkeM.png" alt="此处输入图片的描述"></p>
+<h3 id="Overly-complex-models"><a href="#Overly-complex-models" class="headerlink" title="Overly complex models"></a>Overly complex models</h3><p>has many parameters and so will model both the signal and the noise in the input data.<br>low bias and high variance </p>
+<h3 id="Overly-simplistic-models"><a href="#Overly-simplistic-models" class="headerlink" title="Overly simplistic models"></a>Overly simplistic models</h3><p>has too few parameters and models neither the signal nor the noise elements in the input data very well.<br>high bias and low </p>
+<h3 id="The-bias-variance-trade-off"><a href="#The-bias-variance-trade-off" class="headerlink" title="The bias-variance trade-off"></a>The bias-variance trade-off</h3><p><img src="https://i.stack.imgur.com/alkeM.png" alt="此处输入图片的描述"></p>
 <ol>
 <li>the trainning sample is used to fit the model.</li>
 <li>the validation samples is used to estimate the expected prediction error for that model (since it is data unseen by the model).</li>
@@ -344,7 +347,7 @@
 - leaving out some subset of the data
 - prediction the response values in the omitted set using the bulk of the data
 </code></pre><p>EPE (expected prediction error)<br>$$\Sigma\Sigma(y^*-y)^2    $$</p>
-<h2 id="Ridge-Regression"><a href="#Ridge-Regression" class="headerlink" title="Ridge Regression"></a>Ridge Regression</h2><p>penalise coefficients closer to 0 than they would be under ordinary $R^2$  / ML based estimation</p>
+<h2 id="Ridge-Regression"><a href="#Ridge-Regression" class="headerlink" title="Ridge Regression"></a>Ridge Regression</h2><p>penalise coefficients closer to 0 than they would be under ordinary R^2  / ML based estimation</p>
 <p>the variance of the fitted functions across several data sets from the same process is reduced, but at the cost of bias.<br>￼<img src="https://i.stack.imgur.com/w0ldM.png" alt=""><br>￼￼￼￼<img src="https://svbtleusercontent.com/h8b1k5xswvw8ta.jpg" alt="min cv is the best point for lambda"></p>
 <p>the loss function </p>
 <p>our aim is to minimize the loss function. </p>
@@ -356,9 +359,9 @@
 <li>when p&gt;n it selects n variables at most.</li>
 <li><strong>The lasso method does not group predictors and so if there a group of highly correlated predictors, the lasso tends to select one of<br>these variables from this group in an arbitrary way.</strong></li>
 </ul>
-<p>##Elastic Net<br>a combination of lasso and ridge regression.<br><img src="/Users/fred/Workspace/github/hexo/source/_posts/1525710077850.jpg" alt=""></p>
+<h2 id="Elastic-Net"><a href="#Elastic-Net" class="headerlink" title="Elastic Net"></a>Elastic Net</h2><p>a combination of lasso and ridge regression.<br><img src="/Users/fred/Workspace/github/hexo/source/_posts/1525710077850.jpg" alt=""></p>
 <h1 id="Temporal-autocorrelation"><a href="#Temporal-autocorrelation" class="headerlink" title="Temporal autocorrelation"></a>Temporal autocorrelation</h1><p>if the model does not capture the patterns in the response data, then some of this pattern  will remain in model residuals and present as positive/negeative autocorrelation.</p>
-<p>##Runs Test （游程检验）<br>Runs test can diagnose non-indepeendence in model residuals. </p>
+<h2 id="Runs-Test-（游程检验）"><a href="#Runs-Test-（游程检验）" class="headerlink" title="Runs Test （游程检验）"></a>Runs Test （游程检验）</h2><p>Runs test can diagnose non-indepeendence in model residuals. </p>
 <ul>
 <li>this test assigns a sign to each residual: positive residuals are labelled +1 amd negative residuals are labelled -1.</li>
 <li>too few(long) runs provide evidence of positive correlation, while too many(short) runs provide evidence of negative correlation.</li>
@@ -370,10 +373,10 @@
 <p>the runs test compares the observed number of runs(T) with what’s expeected under independence E(T) and adjusted for the variance V(T) to give a test statistiv <strong>W</strong> which has a standard Normal(0,1) distribution.</p>
 <p> Values within (-2,+2) independence p&gt;0.05</p>
 <p> Positive corrleation (Wz &lt; -2). Negative correlation (Wz &gt;2).</p>
-<p>###Positive correlation affects models selection<br> can lead us to conclude that irrelevant variables are important.</p>
+<h3 id="Positive-correlation-affects-models-selection"><a href="#Positive-correlation-affects-models-selection" class="headerlink" title="Positive correlation affects models selection"></a>Positive correlation affects models selection</h3><p> can lead us to conclude that irrelevant variables are important.</p>
 <p> some noise may regard as a part of data, therefore some unimportant variables are added.</p>
 <p> GEEs(Generalized Estimating Equations) can help</p>
-<p>###Nonlinearity on the link scale<br>the model assumes the relationships between the covariates and the response on the link scale are linear.</p>
+<h3 id="Nonlinearity-on-the-link-scale"><a href="#Nonlinearity-on-the-link-scale" class="headerlink" title="Nonlinearity on the link scale"></a>Nonlinearity on the link scale</h3><p>the model assumes the relationships between the covariates and the response on the link scale are linear.</p>
 <p>partial residual plots exhibit curvature indicate the relationship is not well discribed.</p>
 <blockquote>
 <p><strong>Tukey’s test</strong> a quadratic term term can be fitted for each predictor (eg. Depth^2) in the regression model as a test for nonlinearity. z/t test. small p-value indicare nonlinearities on link scale.</p>
@@ -529,7 +532,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#MT5757"><span class="nav-number">1.</span> <span class="nav-text">MT5757　　</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Model-assumptions"><span class="nav-number">1.1.</span> <span class="nav-text">Model assumptions:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Model-complexity"><span class="nav-number">1.2.</span> <span class="nav-text">Model complexity:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ridge-Regression"><span class="nav-number">1.3.</span> <span class="nav-text">Ridge Regression</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Laaso-Regression"><span class="nav-number">1.4.</span> <span class="nav-text">Laaso Regression</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Temporal-autocorrelation"><span class="nav-number">2.</span> <span class="nav-text">Temporal autocorrelation</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#MT5757"><span class="nav-number">1.</span> <span class="nav-text">MT5757　　</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Model-assumptions"><span class="nav-number">1.1.</span> <span class="nav-text">Model assumptions:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Model-complexity"><span class="nav-number">1.2.</span> <span class="nav-text">Model complexity:</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Overly-complex-models"><span class="nav-number">1.2.1.</span> <span class="nav-text">Overly complex models</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Overly-simplistic-models"><span class="nav-number">1.2.2.</span> <span class="nav-text">Overly simplistic models</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#The-bias-variance-trade-off"><span class="nav-number">1.2.3.</span> <span class="nav-text">The bias-variance trade-off</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ridge-Regression"><span class="nav-number">1.3.</span> <span class="nav-text">Ridge Regression</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Laaso-Regression"><span class="nav-number">1.4.</span> <span class="nav-text">Laaso Regression</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Elastic-Net"><span class="nav-number">1.5.</span> <span class="nav-text">Elastic Net</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Temporal-autocorrelation"><span class="nav-number">2.</span> <span class="nav-text">Temporal autocorrelation</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Runs-Test-（游程检验）"><span class="nav-number">2.1.</span> <span class="nav-text">Runs Test （游程检验）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Positive-correlation-affects-models-selection"><span class="nav-number">2.1.1.</span> <span class="nav-text">Positive correlation affects models selection</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Nonlinearity-on-the-link-scale"><span class="nav-number">2.1.2.</span> <span class="nav-text">Nonlinearity on the link scale</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
