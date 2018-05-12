@@ -92,7 +92,7 @@
 <meta property="og:image" content="http://m.qpic.cn/psb?/V121Q7A010s4Qs/kmO8DWykMAtyvadZjLydZkBM4WNqWJ9Vp*9GspU7fWA!/b/dGcBAAAAAAAA&bo=FAJ.AgAAAAADB0g!&rf=viewer_4">
 <meta property="og:image" content="http://m.qpic.cn/psb?/V121Q7A010s4Qs/4P8geo6g0vKj8Nr3agWuRzjAssL6H4UcdKSXVMhumbY!/b/dIMAAAAAAAAA&bo=9gKaAAAAAAADB0w!&rf=viewer_4">
 <meta property="og:image" content="http://m.qpic.cn/psb?/V121Q7A010s4Qs/H8wX9j7FIEdFHVU0TXFotem2R9gcvSMN8FS*lBy43ow!/b/dDABAAAAAAAA&bo=GAOWAAAAAAADF78!&rf=viewer_4">
-<meta property="og:updated_time" content="2018-05-10T01:24:00.354Z">
+<meta property="og:updated_time" content="2018-05-10T21:28:12.710Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Generalized_Additive_models">
 <meta name="twitter:description" content="Generalized Additive modelsan extension of GLMs that can implement a wide range of nonlinear relatioships between the response variable and the covariates. polynomials $$ \eta_{it} = \beta_0 + \sum_">
@@ -377,7 +377,7 @@
 <blockquote>
 <p>GCV is a funtion of fitting the data based on an associated set of smoothing parameters and model complexity(edf)</p>
 </blockquote>
-<p>edf (effective degrees of freedom) quantifies the number of parametersx used to fit the model. (each penalized coefficient contributes less than 1 df.</p>
+<p>edf (effective degrees of freedom) quantifies the number of parametersx used to fit the model. (each penalized coefficient contributes less than 1 df. (big penalty for each covariate, edf should larger than 10)</p>
 <h3 id="limitations-1"><a href="#limitations-1" class="headerlink" title="limitations"></a>limitations</h3><p>easy and quick to fit but golbal function. there fore if flexibility is required in the covariates relationship is uneven across the covariate range.</p>
 <h2 id="smoothing-spline"><a href="#smoothing-spline" class="headerlink" title="smoothing spline"></a>smoothing spline</h2><p>smoothing spline avoid the knots selection issue. allocating each unique x a knot and control flexibility at the fitting stage using a penalty term.</p>
 <h3 id="penalty"><a href="#penalty" class="headerlink" title="penalty"></a>penalty</h3><p>involved squared secon derivative (根号二阶导数）<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/H8wX9j7FIEdFHVU0TXFotem2R9gcvSMN8FS*lBy43ow!/b/dDABAAAAAAAA&amp;bo=GAOWAAAAAAADF78!&amp;rf=viewer_4" alt=""><br>the integrated squared second derivative describe the roughness of the curve.</p>
@@ -390,7 +390,6 @@
 <h2 id="regression-spline-with-automated-model-selcetion-via-SALSA"><a href="#regression-spline-with-automated-model-selcetion-via-SALSA" class="headerlink" title="regression spline with automated model selcetion via SALSA"></a>regression spline with automated model selcetion via SALSA</h2><p>specify the model manually and choose both the number and the location of knots.</p>
 <ul>
 <li>SALSA also tries to improve model fit in a more radical way by switching each current knot location to the point returning the maximum Pearson residual.</li>
-<li>h</li>
 </ul>
 
       
@@ -425,6 +424,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/05/10/two-dimensional-smoothers/" rel="prev" title="Two_dimensional_smoothers">
+                Two_dimensional_smoothers <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -501,7 +504,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
