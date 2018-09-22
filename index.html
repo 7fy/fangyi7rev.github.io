@@ -1,0 +1,3410 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <link rel="stylesheet" href="<%- url_for('/fa-brands/css/fa-brands.min.css') %>">
+<link rel="stylesheet" href="<%- url_for('/fa-regular/css/fa-regular.min.css') %>">
+<link rel="stylesheet" href="<%- url_for('/fa-solid/css/fa-solid.min.css') %>">
+<link rel="stylesheet" href="<%- url_for('/fontawesome/css/fontawesome.min.css') %>">
+<link rel="stylesheet" href="<%- url_for('/fontawesome-all/css/fontawesome-all.css') %>">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Fangyi's Rev" type="application/atom+xml" />
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fangyi&#39;s Rev">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Fangyi&#39;s Rev">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Fangyi&#39;s Rev">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title>Fangyi's Rev</title>
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-XXXXXXXX-X', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Fangyi's Rev</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-首页"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/归档" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/分类" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/标签" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-search">
+          <a href="/搜索" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-search"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/关于作者" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/17/Visualization/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fangyi Qi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fangyi's Rev">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/17/Visualization/" itemprop="url">Data Visualizaion</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-17T13:30:48+08:00">
+                2018-05-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/17/Visualization/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/05/17/Visualization/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+<h1 id="Information-visualization"><a href="#Information-visualization" class="headerlink" title="Information visualization"></a>Information visualization</h1><p><br><br>Data visualization is the graphical display of abstract information for two purposes: <strong>sense-making</strong>(data analysis) and <strong>communication</strong>.</p>
+<blockquote>
+<ul>
+<li><strong>spatial data</strong><br><br> physically-based data with an inherent spatial mappling<br><br> spatial mapping is typically defined by nature</li>
+<li><strong>abstract data</strong><br><br> deos not have an inherent spatial mapping </li>
+</ul>
+</blockquote>
+<ul>
+<li><p>sense making (process)<br><br> trageted analysis: questions are well-defined<br><br> exploratory: questions are still evolving<br><br> interactivity is important</p>
+</li>
+<li><p>communicate (final results)<br><br> summarize findings<br><br> presenting insights</p>
+</li>
+</ul>
+<p><br></p>
+<p><strong>the use of computer-supported,interacitve, visual representations of abstract data to amplify cognition.</strong></p>
+<p><br> the power of unaided human mind is highly overrated. Without external aids, memory, thought and reasoning are all constraint.<br><br> but human intelligence is highly flexible and adaptive, superb at inventing procedures and objects that overcome its own limits.<br><br> the real powers come from devicing external aids that enhance cognitive abilities.</p>
+<p><br> <strong>computer-generated mappings</strong> between data and visuals<br><br>  - as the data changes, the visualization changes<br><br>  - no manual adjusting is required</p>
+<p><br> <strong>interacitve</strong><br><br>  - people can interact with the visualization</p>
+<h1 id="process-of-creating-visualization"><a href="#process-of-creating-visualization" class="headerlink" title="process of creating visualization"></a>process of creating visualization</h1><p><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/ijPNNgaH2Pk6NYegsI8CtLEiwOAJ71q9Hb4uihEbAhM!/b/dDEBAAAAAAAA&amp;bo=VAaeAwAAAAADB.0!&amp;rf=viewer_4" alt=""></p>
+<p><strong>the data set</strong></p>
+<ul>
+<li>collection of information that is the target of the analysis </li>
+<li>types (table, networks and trees, clusters, sets, lists)</li>
+</ul>
+<blockquote>
+<ul>
+<li>tables </li>
+<li>networks (specifiy relationship between two or multiple items</li>
+</ul>
+</blockquote>
+<h2 id="apsects-of-data"><a href="#apsects-of-data" class="headerlink" title="apsects of data"></a>apsects of data</h2><ul>
+<li>item: individual discrete entity - data point </li>
+<li>attribute: property of an item that can be specified or measured</li>
+<li>link: relationship between items</li>
+</ul>
+<blockquote>
+<p>static (items are available all at one,  do not change)<br><br>dynamic (items change over time, new items are added over time)</p>
+</blockquote>
+<h1 id="attribute-types"><a href="#attribute-types" class="headerlink" title="attribute types"></a>attribute types</h1><p>##categorical data (discrete)</p>
+<h3 id="nominal-（名义-标定数据）"><a href="#nominal-（名义-标定数据）" class="headerlink" title="nominal （名义/标定数据）"></a>nominal （名义/标定数据）</h3><p>discrete values in a single category<br><br> no intrinsic ordering </p>
+<h3 id="ordinal-（有序）"><a href="#ordinal-（有序）" class="headerlink" title="ordinal （有序）"></a>ordinal （有序）</h3><p>discrete valuess in a single category<br><br> have an implicit, well defined ordering</p>
+<h3 id="interval-（区间数据）"><a href="#interval-（区间数据）" class="headerlink" title="interval （区间数据）"></a>interval （区间数据）</h3><p>series of numerical ranges<br><br>sequential with implict ordering</p>
+<h3 id="hierarchical-分层数据）"><a href="#hierarchical-分层数据）" class="headerlink" title="hierarchical (分层数据）"></a>hierarchical (分层数据）</h3><p>multiple categories that associated in a parent to child relationship<br><br>each item is associated with one higer level category, several lower-level categories</p>
+<h2 id="quantitative-data-continuous"><a href="#quantitative-data-continuous" class="headerlink" title="quantitative data (continuous)"></a>quantitative data (continuous)</h2><p> measurements of magnitude<br> <br>math operations make sense<br> <br>typical realtions: ranking, ratio, correlation </p>
+<h3 id="ordered-amp-quantitative-data"><a href="#ordered-amp-quantitative-data" class="headerlink" title="ordered &amp; quantitative data"></a>ordered &amp; quantitative data</h3><ul>
+<li>sequential<br><br>range from minimum to maximum</li>
+<li>diverging<br><br> two sequences pointing in opposite directions and meet at one point</li>
+<li>cyclic<br><br>values wrap back to starting point</li>
+</ul>
+<h1 id="marks"><a href="#marks" class="headerlink" title="marks"></a>marks</h1><p>basic graphical elements visible on paper/ on screen<br><br>have a dimension</p>
+<ul>
+<li>point<br><br> sepcific position<br><br> no dimensions<br><br> can have a size and shape</li>
+<li>line<br><br> one dimension<br><br> variable length/size<br><br> can have width</li>
+<li>area<br><br>two dimensions<br><br> variable size: width and heigth</li>
+</ul>
+<h2 id="visual-variables-channels"><a href="#visual-variables-channels" class="headerlink" title="visual variables (channels)"></a>visual variables (channels)</h2><ul>
+<li>position<ul>
+<li>changes in horizontal &amp; vertical position ( 2D)</li>
+<li>order</li>
+<li>quantitative</li>
+<li>assciative</li>
+<li>selective</li>
+<li>length</li>
+</ul>
+</li>
+<li>size <ul>
+<li>changes in length, area, repetition</li>
+<li>order</li>
+<li>quantitative(differences in lenght are easier to estimate than differences in area)</li>
+<li>selective(limited 5)</li>
+<li>associatve (limit)</li>
+<li>length(limit)</li>
+</ul>
+</li>
+<li>shape<ul>
+<li>no order </li>
+<li>no quantitative</li>
+<li>associative</li>
+<li>selective</li>
+<li>length</li>
+</ul>
+</li>
+<li>color (hue)<ul>
+<li>no order</li>
+<li>no quantitative</li>
+<li>associative(depends on the number of distractors and spatial distribution)</li>
+<li>selective </li>
+<li>length (limited 7)</li>
+</ul>
+</li>
+<li>color (value)<ul>
+<li>order</li>
+<li>no quantitative</li>
+<li>associative (limited 7)</li>
+<li>selective (limited 7)</li>
+<li>length (limit)</li>
+</ul>
+</li>
+<li>orientation/angle</li>
+<li>texture</li>
+<li>saturation</li>
+<li>transparency</li>
+<li>curvature</li>
+<li>movement</li>
+<li>flicker</li>
+</ul>
+<h2 id="principles"><a href="#principles" class="headerlink" title="principles"></a>principles</h2><h3 id="expressiveness"><a href="#expressiveness" class="headerlink" title="expressiveness"></a>expressiveness</h3><p>the visual encoding should express all of, and only, the information in the dataset attributes</p>
+<ul>
+<li>show ordered data in a way that our perceptual system intrinsically senses as ordered.</li>
+<li><p>show categorical data in a way that does not perceptually suggest ordering.</p>
+<h3 id="effectiveness-principle"><a href="#effectiveness-principle" class="headerlink" title="effectiveness principle"></a>effectiveness principle</h3><p>the importance of the data attribute should be encoded with the most effective visual variable, in order to be noticeable.</p>
+</li>
+<li><p>discriminability （辨别）</p>
+<ul>
+<li>selective: distinguish between items, do thing pop-out</li>
+<li>associative: can we identify similar items</li>
+</ul>
+</li>
+<li>Accuracy <ul>
+<li>how accurate is our perception of a visual variable?</li>
+<li><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/iMWvmKmSt326BwlpL4xX6AFvcIv7UZVKwBDi8w5WnHY!/b/dGYBAAAAAAAA&amp;bo=kAO2AwAAAAADBwQ!&amp;rf=viewer_4" alt=""></li>
+</ul>
+</li>
+<li>separability (分离性）<ul>
+<li>interact with other visual variables</li>
+<li>interferences between different visual variables<h3 id="visualization-process"><a href="#visualization-process" class="headerlink" title="visualization process"></a>visualization process</h3></li>
+</ul>
+</li>
+<li>consider the types of attributes in your dataset</li>
+<li>identify the most important attributes to be represented (driven by task and questions)</li>
+<li>choose the viusal variables according to their effectiveness ranking<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/zAiy4CpQGoJd8UZv7kZi9HLqyD2Z4jtvOma4i5o*7h0!/b/dDABAAAAAAAA&amp;bo=5AUyBAAAAAADB*U!&amp;rf=viewer_4" alt=""></li>
+</ul>
+<p>#classifying visualiztion techniques</p>
+<h2 id="based-on-the-number-of-attributes"><a href="#based-on-the-number-of-attributes" class="headerlink" title="based on the number of attributes"></a>based on the number of attributes</h2><ul>
+<li>univariate data (just a single number or attibute)</li>
+<li>bivariate data(data along two dimensions/variables)</li>
+<li>multivariate data(data along multiple dimensions)<h2 id="based-on-the-spatial-arrangement"><a href="#based-on-the-spatial-arrangement" class="headerlink" title="based on the spatial arrangement"></a>based on the spatial arrangement</h2></li>
+</ul>
+<h2 id="scatterplot"><a href="#scatterplot" class="headerlink" title="scatterplot"></a>scatterplot</h2><p>two quantitative attributes + one nominal attribute<br><br> express quantitative values as point marks using ( horizontal and vertical position)<br><br>providing overviews</p>
+<pre><code>- characterizing distributions (outliers, extremes)
+- finding correlations between two attributes
+- distinguishing data points from each other becomes difficult in larger data sets
+</code></pre><h3 id="scatterplot-matrix"><a href="#scatterplot-matrix" class="headerlink" title="scatterplot matrix"></a>scatterplot matrix</h3><blockquote>
+<p>explore pairwise correlation across multiple quantitative attributes</p>
+</blockquote>
+<ul>
+<li>find pairwise correlations (trends, outliers)</li>
+<li>attributes&lt;12 ,data points up to hundreds</li>
+</ul>
+<h2 id="bar-charts"><a href="#bar-charts" class="headerlink" title="bar charts"></a>bar charts</h2><blockquote>
+<p>product categories &amp; scales</p>
+</blockquote>
+<p><br>one nominal attribute and one quantitative attribute (line marks)<br><br>value attribute expressed through length and aligned in vertical position, levels of nominal dimension separated through horizontal position<br><br>lookup, compare values, presenting trends<br><br>limited to hunderds of key levels</p>
+<ul>
+<li>alphabetical ordering (good for lookup)</li>
+<li>value-driven ordering (good for seeing trends)</li>
+</ul>
+<h3 id="stacked-bar-charts"><a href="#stacked-bar-charts" class="headerlink" title="stacked bar charts"></a>stacked bar charts</h3><blockquote>
+<p>multidimensional table (one nominal attribute can be divided into several sub-categoris. </p>
+</blockquote>
+<ul>
+<li>part of a whole relationship</li>
+<li>lookup values</li>
+<li>find trends</li>
+<li>limits <ul>
+<li>height of full bars and lowest sub-bars easy to compare</li>
+<li>comparison of stacked sub-bars more difficult: no shared baseline</li>
+<li>order is important, interactivity can help</li>
+</ul>
+</li>
+<li>scalability<ul>
+<li>limited to hundreds of primary key levels</li>
+<li>several to a dozen secondary key levels</li>
+</ul>
+</li>
+</ul>
+<h3 id="normalized-stacked-bar-charts"><a href="#normalized-stacked-bar-charts" class="headerlink" title="normalized stacked bar charts"></a>normalized stacked bar charts</h3><blockquote>
+<p>show relative proportions <br><br>part of whole relationships, comparison across key attribute levels</p>
+</blockquote>
+<h2 id="dot-chart"><a href="#dot-chart" class="headerlink" title="dot chart"></a>dot chart</h2><blockquote>
+<p>difference to scatter plots<br></p>
+<ul>
+<li>one quantitative and one ordinal attribute <br></li>
+</ul>
+</blockquote>
+<h2 id="line-chart"><a href="#line-chart" class="headerlink" title="line chart"></a>line chart</h2><blockquote>
+<p>follow directly from dot charts with a line connecting the different data points</p>
+</blockquote>
+<ul>
+<li>good for showing trends</li>
+<li>line emphasizes ordering &amp; continuity (do not use for categorical data)</li>
+</ul>
+<h2 id="multiple-area-charts"><a href="#multiple-area-charts" class="headerlink" title="multiple area charts"></a>multiple area charts</h2><h2 id="stacked-area-graphs"><a href="#stacked-area-graphs" class="headerlink" title="stacked area graphs"></a>stacked area graphs</h2><h2 id="stream-graphs"><a href="#stream-graphs" class="headerlink" title="stream graphs"></a>stream graphs</h2><blockquote>
+<p>closely related to stacked bar charts <br></p>
+</blockquote>
+<ul>
+<li>emphasis on continuity of the horizontal layers<ul>
+<li>primary key: ordinal</li>
+<li>secondary key: nomial</li>
+<li>one quantitative value</li>
+<li>one derived attribute (for layer ordering)</li>
+</ul>
+</li>
+<li>part of the whole relationship, finding trends</li>
+<li>lookup and comparsion can be difficult</li>
+</ul>
+<h2 id="parallel-coordinates"><a href="#parallel-coordinates" class="headerlink" title="parallel coordinates"></a>parallel coordinates</h2><ul>
+<li>visualizing many quantitative/ordinal attributes</li>
+<li>use for parallel axes<ul>
+<li>positive correlation: parallel lines</li>
+<li>negative correlation: crossing lines</li>
+</ul>
+</li>
+<li>finding correlations <ul>
+<li>identifying ranges of particular attributes; extremes</li>
+<li>identifying outliers</li>
+<li>ordering of axes is crucial </li>
+</ul>
+</li>
+<li>scale: large number of data points<ul>
+<li>moderate number of attributes (12)</li>
+</ul>
+</li>
+</ul>
+<h2 id="radial-bar-charts"><a href="#radial-bar-charts" class="headerlink" title="radial bar charts"></a>radial bar charts</h2><ul>
+<li>one categorical key attribute; one quantitative value</li>
+<li>angle and length(size)<ul>
+<li><ul>
+<li>angle as a visual variable is less accurate than rectilinear position</li>
+</ul>
+</li>
+<li><ul>
+<li>angle is perceived cyclic rather linear. good for showing data inherent cycles or periodic patterns.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="pie-chart"><a href="#pie-chart" class="headerlink" title="pie chart"></a>pie chart</h2><ul>
+<li>one quantitative attribute, one categorical attribute</li>
+<li>area mark in radial layout, angle, arc length, area size</li>
+<li>part of whole realtionship</li>
+<li>scale(&lt;12)</li>
+<li>limit<ul>
+<li>judge area, not angle (inaccurate judgement)</li>
+<li>areas are irregular</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>order the slices from largest to smallest</p>
+</blockquote>
+<h2 id="donut-charts"><a href="#donut-charts" class="headerlink" title="donut charts"></a>donut charts</h2><ul>
+<li>one quantitative attribute; one categorical attribute</li>
+<li>area mark in radial layout; anglel arc length; area size</li>
+<li>part of whole realtionship</li>
+<li>&lt; 12 categories</li>
+</ul>
+<h2 id="polar-area-chart"><a href="#polar-area-chart" class="headerlink" title="polar area chart"></a>polar area chart</h2><ul>
+<li>one quantitative attribute, one categorical attribute</li>
+<li>area mark + length; radial layout; no variation of angle</li>
+<li>part whole relationship</li>
+<li>&lt; 12 categories</li>
+</ul>
+<h3 id="space-efficiency"><a href="#space-efficiency" class="headerlink" title="space efficiency"></a>space efficiency</h3><blockquote>
+<p>only worse design than a pie chart is several of them, for then the viewer is asked to compare quantities located in spatial disarray both within and between pies. </p>
+</blockquote>
+<h1 id="task-analysis"><a href="#task-analysis" class="headerlink" title="task analysis"></a>task analysis</h1><blockquote>
+<p>overview of basic activities that a person may want to do using the visualization to achieve their goals<br><br>understanding the basic task help us to<br>    <br>- think about data transformation steps required to fulfil these tasks<br>    <br>- think about the design and functionality of our visualization</p>
+</blockquote>
+<h2 id="actions-activities"><a href="#actions-activities" class="headerlink" title="actions/activities"></a>actions/activities</h2><blockquote>
+<p>define user goals<br>choices of actions are independent of their level ( high to low; analyse to query)</p>
+</blockquote>
+<h3 id="analyze"><a href="#analyze" class="headerlink" title="analyze"></a>analyze</h3><blockquote>
+<p>how is the visualization being used for analysis ( consume or produce)</p>
+</blockquote>
+<ul>
+<li><p>discover (explore information)</p>
+<ul>
+<li>goal - find new knowledge that was previously unknown (open-ended)</li>
+<li>investigation motivated by hypotheses, existing theories, hunches, or open-ended questions</li>
+<li>discovery may generate new questions or hypotheses</li>
+<li>may arise from serendipitous discoverires through the visualization</li>
+<li>design considerations for visualzation<ul>
+<li>show data from different perspectives</li>
+<li>enable open-ended explotation through interactivity</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>present (communicate existing knowledge)</p>
+<ul>
+<li>goal - communicate information that is already understood to an audience</li>
+<li>telling a story with data</li>
+<li>guiding an audience through a series of data aspects</li>
+<li>context: entertainment, education, decision making </li>
+<li>design considerations for visualzation<ul>
+<li>focus on a particular aspect of the data</li>
+<li>clarity of visual representation; simplicity of interaction</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>enjoy (communicate existing knowledge + make it explorable)<ul>
+<li>goal - support casual encounters with a visualization</li>
+<li>information need is not as pressing </li>
+<li>motivation is driven by pure curiosity</li>
+</ul>
+</li>
+</ul>
+<hr>
+<blockquote>
+<p>another</p>
+</blockquote>
+<ul>
+<li>consume</li>
+<li>produce (use visualization to generate new material)<ul>
+<li>annotate (注释）<ul>
+<li>textual annotations to add additional information to an existing visualization</li>
+<li>could be considered as a new data attribute and further visualized</li>
+</ul>
+</li>
+<li>record<ul>
+<li>capture (interaction with) visualization elements</li>
+<li>logging particular activities directly by manipulating a visualization</li>
+</ul>
+</li>
+<li>deriving new data (attributes)<ul>
+<li>(data transformation)</li>
+<li>can be facilitated through the visualization</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="search-elements-of-interest"><a href="#search-elements-of-interest" class="headerlink" title="search (elements of interest)"></a>search (elements of interest)</h3><blockquote>
+<p>what kind of(visual) search is involved (lookup, locate, browse, explore)<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/m9GkK1G2NUK4jLwOUrxFI2XyXrfptqCVeBICv*ohv14!/b/dDEBAAAAAAAA&amp;bo=XgZOAgAAAAADBzY!&amp;rf=viewer_4" alt=""></p>
+</blockquote>
+<ul>
+<li>lookup<ul>
+<li>know what we are looking for</li>
+<li>know where to look</li>
+<li>text queries (文本查询） may be most effective</li>
+<li>visualization can highlight the specific item<ul>
+<li>visual variables that support ‘popout’ effect well (selective)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>locate<ul>
+<li>know what looking for </li>
+<li>do not know where</li>
+<li>some exploration/mnavigation is required ( interactions. visual)</li>
+</ul>
+</li>
+<li>browse <ul>
+<li>do not know what are looking for </li>
+<li>know where to looking for</li>
+<li>visualization can help identify items with particular characteristics and compare them to hepl us hone in on a subset of interest.</li>
+</ul>
+</li>
+<li><p>explore </p>
+<ul>
+<li>do not know what looking for</li>
+<li>do not know where have to look</li>
+<li>visualization can provide an overview of the information space so we can identify basic trends/ patterns to help us narrow our goal/question further<h3 id="query"><a href="#query" class="headerlink" title="query"></a>query</h3><blockquote>
+<p>what kind of queries need to be performed? (identify, compare, summarize)</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>identify ( single target)</p>
+</li>
+<li><p>compare (multiple targets)</p>
+</li>
+<li><p>summarize ( full set of targets)</p>
+</li>
+</ul>
+<h2 id="Targets-points-of-interest"><a href="#Targets-points-of-interest" class="headerlink" title="Targets: points of interest"></a>Targets: points of interest</h2><blockquote>
+<p>aspects of the data that are of interest to the user</p>
+</blockquote>
+<p><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/nIITLJr.GYebR4GYRuarVvZceHZl2wNJhg5JiAE3N7I!/b/dGoBAAAAAAAA&amp;bo=SAYWBAAAAAADB34!&amp;rf=viewer_4" alt=""></p>
+<h1 id="encoding-relations"><a href="#encoding-relations" class="headerlink" title="encoding relations"></a>encoding relations</h1><h2 id="arc-diagrams"><a href="#arc-diagrams" class="headerlink" title="arc diagrams"></a>arc diagrams</h2><ul>
+<li>encoding relations in 1D</li>
+<li>good for showing pairwise relationships<h2 id="circle-arrangements"><a href="#circle-arrangements" class="headerlink" title="circle arrangements"></a>circle arrangements</h2></li>
+<li>less orderd than positioning</li>
+<li><p>easy to descirbe relationships using straight lines</p>
+</li>
+<li><p>high number of nodes get messy fast</p>
+<h2 id="hierarchical-edge-bundling-can-solve-messy"><a href="#hierarchical-edge-bundling-can-solve-messy" class="headerlink" title="hierarchical edge bundling (can solve messy)"></a>hierarchical edge bundling (can solve messy)</h2><h2 id="chord-diagrams"><a href="#chord-diagrams" class="headerlink" title="chord diagrams"></a>chord diagrams</h2><blockquote>
+<p>relationshiops between groups of entities</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="node-link-diagrams"><a href="#node-link-diagrams" class="headerlink" title="node-link diagrams"></a>node-link diagrams</h2><ul>
+<li>characterizing the topology of the network<ul>
+<li>direct and indirect connections between nodes</li>
+<li>finding all possible paths from one node to the other</li>
+<li>finding all adjacement nodes to a target node</li>
+<li>central nodes that connect two sub-networks</li>
+<li>identifying outliers- nodes that are not well connected</li>
+</ul>
+</li>
+<li>spatial layout follows the network topology</li>
+<li><p>design considerations</p>
+<ul>
+<li>make good use of available space</li>
+<li>links determine proximity(adjacement)</li>
+<li>avoid overlaps of nodes</li>
+<li>avoid edge crossings</li>
+</ul>
+</li>
+<li><p>use of position</p>
+<ul>
+<li>groupings indicate connections</li>
+<li>but indirect use of position</li>
+<li>danger of misinterpreting meaning</li>
+</ul>
+</li>
+<li><p>position : typically non-deterministic</p>
+<ul>
+<li>does not use spatial memory</li>
+<li>difficult with dynamic data </li>
+</ul>
+</li>
+<li><p>limit</p>
+<ul>
+<li>visual complexity</li>
+<li>computational complexity</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>adding quantitative attributes</strong><br><br>Circle size</p>
+<ul>
+<li>frequency of nodes</li>
+<li>importance of nodes (measured quantitatively)</li>
+</ul>
+<p><br>line width</p>
+<ul>
+<li>frequency of nodes</li>
+<li>importance of edges (measured quantitatively)</li>
+</ul>
+<h2 id="matrix-diagram"><a href="#matrix-diagram" class="headerlink" title="matrix diagram"></a>matrix diagram</h2><ul>
+<li>finding cluster (order of keys matters)</li>
+<li>identifying symmetries</li>
+<li>undirected networks (show half the matrix)</li>
+<li>directed networks (show full matrix)</li>
+<li>highly scalable<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/Kpyuiqtz3cD42XsJhQYUs.blN7YjuNpACPu2Qtun6o8!/b/dDIBAAAAAAAA&amp;bo=Fwg4BAAAAAADBwE!&amp;rf=viewer_4" alt=""></li>
+</ul>
+<h2 id="nodeTrix"><a href="#nodeTrix" class="headerlink" title="nodeTrix"></a>nodeTrix</h2><blockquote>
+<p>combining node-ling and matrix diagram</p>
+</blockquote>
+<h1 id="encoding-relationship-in-hierarchcial-data"><a href="#encoding-relationship-in-hierarchcial-data" class="headerlink" title="encoding relationship in hierarchcial data"></a>encoding relationship in hierarchcial data</h1><ul>
+<li>each node has exactly one parent (root node)</li>
+<li>each node can have no or many children (leaf nodes)</li>
+</ul>
+<h2 id="hierarchical-node-link-diagram"><a href="#hierarchical-node-link-diagram" class="headerlink" title="hierarchical node-link diagram"></a>hierarchical node-link diagram</h2><ul>
+<li>a special type of network<br><br></li>
+<li>clear identification of hierarchical levels</li>
+<li>parent node/child relationships</li>
+<li>explore topology; locate path;</li>
+</ul>
+<hr>
+<ul>
+<li>design consideration<ul>
+<li>vertical &amp; horizontal space considerations</li>
+<li>readability of labels</li>
+</ul>
+</li>
+</ul>
+<h3 id="triangular-horizontal-layout"><a href="#triangular-horizontal-layout" class="headerlink" title="triangular horizontal layout"></a>triangular horizontal layout</h3><ul>
+<li>use of splines </li>
+<li>avoids overlap between nodes and edges</li>
+<li>gives larger sub-trees more spcae</li>
+</ul>
+<h3 id="radial-node-link-diagram"><a href="#radial-node-link-diagram" class="headerlink" title="radial node-link diagram"></a>radial node-link diagram</h3><ul>
+<li>can be more compact</li>
+<li>less implication of order</li>
+<li>reading of text labels more difficult</li>
+</ul>
+<h2 id="indented-layout"><a href="#indented-layout" class="headerlink" title="indented layout"></a>indented layout</h2><ul>
+<li>clear identification of hierarchical levels</li>
+<li>facilitates scaning of node labels</li>
+<li>more compact version of a vertical layout</li>
+</ul>
+<h2 id="dendogram"><a href="#dendogram" class="headerlink" title="dendogram"></a>dendogram</h2><blockquote>
+<p>all leaf nodes are aligned</p>
+</blockquote>
+<ul>
+<li>easy identification of leaf nodes</li>
+</ul>
+<h1 id="space-filling-layouts"><a href="#space-filling-layouts" class="headerlink" title="space-filling layouts"></a>space-filling layouts</h1><h2 id="icicle-plot-adjacency-diagram"><a href="#icicle-plot-adjacency-diagram" class="headerlink" title="icicle plot/ adjacency diagram"></a>icicle plot/ adjacency diagram</h2><ul>
+<li>tree depth -&gt; vertical position</li>
+<li>relationships &amp; sibling order -&gt; horizontal position</li>
+<li>number/weight of leaves -&gt; width/horizontal length</li>
+<li>part of whole relationship</li>
+</ul>
+<h2 id="radial-space-filling"><a href="#radial-space-filling" class="headerlink" title="radial space filling"></a>radial space filling</h2><ul>
+<li>number/weight of leaves -&gt; angle/area size</li>
+<li>part of whole relationship</li>
+</ul>
+<h1 id="containmnet-layouts"><a href="#containmnet-layouts" class="headerlink" title="containmnet layouts"></a>containmnet layouts</h1><h2 id="treemaps"><a href="#treemaps" class="headerlink" title="treemaps"></a>treemaps</h2><ul>
+<li>nested layout of hierarchical relationships</li>
+<li><p>(quantitative) attribute of node -&gt; size</p>
+</li>
+<li><p>understanding of node attribute values</p>
+</li>
+<li>content/structure of leaf nodes</li>
+<li>not good for topology </li>
+<li>high scalability (one million leaf nodes, one million links)<h1 id="design-considerations-for-layout"><a href="#design-considerations-for-layout" class="headerlink" title="design considerations for layout"></a>design considerations for layout</h1></li>
+<li>general layout of the visualization<ul>
+<li>vertical &amp; horizontal space considerations</li>
+<li>readability of labels </li>
+</ul>
+</li>
+<li>character of the data<ul>
+<li>in particular the vertical layout can imply order</li>
+</ul>
+</li>
+<li>avoid edge crossings</li>
+<li>avoid overlap of nodes </li>
+</ul>
+<h1 id="data-ink-ratio-用最少的墨表达最丰富的咨询）"><a href="#data-ink-ratio-用最少的墨表达最丰富的咨询）" class="headerlink" title="data-ink ratio (用最少的墨表达最丰富的咨询）"></a>data-ink ratio (用最少的墨表达最丰富的咨询）</h1><blockquote>
+<p>proportion of data-driven ink (pixels) used in an information visualization</p>
+</blockquote>
+<ul>
+<li>maximize the data-ink ratio (within reason)</li>
+<li>erase non-data ink (within reason)</li>
+<li>erase redundant data-ink (within reason)</li>
+</ul>
+<blockquote>
+<p>be careful with these guidelines as redundancy and even non-data ink can improve understanding and sensemaking</p>
+</blockquote>
+<h1 id="chart-junk"><a href="#chart-junk" class="headerlink" title="chart junk"></a>chart junk</h1><blockquote>
+<p>critically assess information visualization for non-data driven graphics/text/images/supporting structures (or redundant information)<br>visual embellishments, not essentially necessary to understand the data.</p>
+</blockquote>
+<ul>
+<li>Excessive gridlines and labeling</li>
+<li>unnecessary 3D effects &amp; texturing</li>
+</ul>
+<blockquote>
+<p>It is alright to decorate construction but never construct decoration. - Augustus Pugin</p>
+</blockquote>
+<h2 id="useful-junk"><a href="#useful-junk" class="headerlink" title="useful junk"></a>useful junk</h2><ul>
+<li>no difference in accuracy of interpretation</li>
+<li>better long-term recall</li>
+</ul>
+<h1 id="rules-of-thumb-of-visualization-design"><a href="#rules-of-thumb-of-visualization-design" class="headerlink" title="rules of thumb of visualization design"></a>rules of thumb of visualization design</h1><h2 id="no-unjustified-3D"><a href="#no-unjustified-3D" class="headerlink" title="no unjustified 3D"></a>no unjustified 3D</h2><p>expressiveness &amp; effectivess of visual variables in 2D</p>
+<ul>
+<li>cues that convey depth<ul>
+<li>disparity of depth <ul>
+<li>we do not perceive the world in 3D</li>
+<li>Most visual information is about a 2D image plane</li>
+<li>Depth information is only a tiny fraction<ul>
+<li>Occlusion</li>
+<li>occlusion is a powerful depth cue (visible objects are interpreted as closer)</li>
+<li>motion parallax (动作视差）（objects that are closer appear to move by faster</li>
+<li><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/2L.e.I0zZOgWmJceHUvZET*4MTRkAJtrkWk7O9YVJNQ!/b/dDIBAAAAAAAA&amp;bo=Xga6AgAAAAADB8I!&amp;rf=viewer_4" alt=""></li>
+<li>Perspective distortion （透视扭曲）</li>
+<li>distant objects appear smaller and change their position on the image plane</li>
+<li>great for creating realistic looking images</li>
+<li>bad in the infromation visualziaton context </li>
+<li>Familiarity with sizes of certain objects</li>
+<li>Shadows and lighting</li>
+<li>shading can helo to estimate height with respect to ground</li>
+<li>introduction of visual mess</li>
+<li>possible occlusion of marks that actually represent data</li>
+<li>shadows can interfere with other viusal variables ( color hue, value)</li>
+<li>Atmospheric perspective</li>
+<li>conflict with color encoding </li>
+<li>Stereoscopic disparity (立体不一致）</li>
+<li>Based on the differences in two images created from two camera viewpoints</li>
+</ul>
+</li>
+<li>do not interfere with other visual variables but not the strongest depth cue, espically making assumptions about distant objects</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Length of a line that expands on<br>the image plane is scaled linearly</li>
+<li>Length of a line that extends into<br>the scene (on z‐axis) is scaled<br>non‐linearly</li>
+<li>(Most visual information is about a 2D image plan)<br>（Depth information is only a tiny fraction）</li>
+</ul>
+<blockquote>
+<p>for abstract data, using 2D spatial position is more effective</p>
+</blockquote>
+<h2 id="no-unjustified-2D"><a href="#no-unjustified-2D" class="headerlink" title="no unjustified 2D"></a>no unjustified 2D</h2><h2 id="Resolution-over-Immersion"><a href="#Resolution-over-Immersion" class="headerlink" title="Resolution over Immersion"></a>Resolution over Immersion</h2><p>Resolution (number of pixels 分辨率） over immersion (sense of presence in a scene 在场景中的存在感)</p>
+<h2 id="Eyes-beat-memory"><a href="#Eyes-beat-memory" class="headerlink" title="Eyes beat memory"></a>Eyes beat memory</h2><h3 id="memory-amp-attention"><a href="#memory-amp-attention" class="headerlink" title="memory &amp; attention"></a>memory &amp; attention</h3><ul>
+<li>long-tern lasts for lifetime; no clearly defined limit</li>
+<li>short-term lasts for several seconds; highly limited (human attention)<br><br></li>
+<li>cognitive load<ul>
+<li>experience of when the limits of working memory have been reached</li>
+<li>Failing to absorb and process (some) of the presented information<br><br><br>visual search tasks -&gt; high cognitvie load</li>
+</ul>
+</li>
+<li><p>Vigilance is highly limited (找不出来了）<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/0wR5UL86I1Wy1LdHvVhsHzyqBDblQ9YpHuYORfOKoiw!/b/dEMBAAAAAAAA&amp;bo=lAZsAwAAAAADB98!&amp;rf=viewer_4" alt=""></p>
+</li>
+<li><p>animation in visualzation can cause cogintive load</p>
+<ul>
+<li>Transition/change from one view to another</li>
+<li>When the transition/change is focusing on a particular attribute/visual element<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/0wR5UL86I1Wy1LdHvVhsHzyqBDblQ9YpHuYORfOKoiw!/b/dEMBAAAAAAAA&amp;bo=lAZsAwAAAAADB98!&amp;rf=viewer_4" alt=""></li>
+</ul>
+</li>
+</ul>
+<h3 id="summary"><a href="#summary" class="headerlink" title="summary"></a>summary</h3><ul>
+<li>side-by-side views for detailed comparison across many frames (limit nunber of frames)</li>
+<li>animation can be good for highlighting “drastic but focused changes”</li>
+<li>jump cuts can be good for singular small changes</li>
+<li>for detailed analysis, provide playback controls<h2 id="Overview-first-zoom-amp-filter-details-on-demand-Interactivity"><a href="#Overview-first-zoom-amp-filter-details-on-demand-Interactivity" class="headerlink" title="Overview first, zoom &amp; filter, details on demand (Interactivity)"></a>Overview first, zoom &amp; filter, details on demand (Interactivity)</h2></li>
+<li>Gain an overview of the entire collection</li>
+<li>Zoom in on items of interest</li>
+<li>Filter out uninteresting items</li>
+<li>Select an item or group and get details when needed<h2 id="Responsiveness-is-required"><a href="#Responsiveness-is-required" class="headerlink" title="Responsiveness is required"></a>Responsiveness is required</h2></li>
+<li>intercation comes at its cost<ul>
+<li>attention</li>
+<li>intercation (navigation takes time)</li>
+</ul>
+</li>
+<li>visual feedback should be provided within less than 1s</li>
+<li>consider the different aspects contributing to latency(潜在因素） <h2 id="Get-it-right-in-black-and-white"><a href="#Get-it-right-in-black-and-white" class="headerlink" title="Get it right in black and white"></a>Get it right in black and white</h2><h2 id="Form-follows-function-形式应该跟随功能）"><a href="#Form-follows-function-形式应该跟随功能）" class="headerlink" title="Form follows function (形式应该跟随功能）"></a>Form follows function (形式应该跟随功能）</h2>“When I am working on<br>a problem, I never think about<br>beauty but when I have finished, if the solution is not beautiful, I know it is wrong.<h2 id="make-effective-use-of-space"><a href="#make-effective-use-of-space" class="headerlink" title="make effective use of space"></a>make effective use of space</h2></li>
+<li>do not waste screen space</li>
+<li>balanced layout</li>
+<li>do not overcrowd the space</li>
+</ul>
+<h1 id="encoding-geospatial-data"><a href="#encoding-geospatial-data" class="headerlink" title="encoding geospatial data"></a>encoding geospatial data</h1><h2 id="position-visual-variable-follows-geospatial-position"><a href="#position-visual-variable-follows-geospatial-position" class="headerlink" title="position (visual variable) follows geospatial position"></a>position (visual variable) follows geospatial position</h2><h3 id="choropleth-maps-分区地图）"><a href="#choropleth-maps-分区地图）" class="headerlink" title="choropleth maps(分区地图）"></a>choropleth maps(分区地图）</h3><ul>
+<li><p>good for data has been aggregated(sum) by location</p>
+<blockquote>
+<p>quantitative attribute -&gt;colour</p>
+</blockquote>
+</li>
+<li><p>limit</p>
+<ul>
+<li>raw data (not normalized)</li>
+<li>size is not connected to data values</li>
+<li>variables not separable (interaction between color and area)</li>
+</ul>
+</li>
+</ul>
+<h3 id="graduated-symbol-map-等级符号地图）"><a href="#graduated-symbol-map-等级符号地图）" class="headerlink" title="graduated symbol map (等级符号地图）"></a>graduated symbol map (等级符号地图）</h3><ul>
+<li>placing symbols on a map</li>
+<li>frees up size, shape and color as variables</li>
+<li>limits:<ul>
+<li>conveying precise positions can be difficult(Shapes should be used that spread evenly )</li>
+<li>overlap </li>
+<li>comparision can be difficult (lack of alignment)</li>
+</ul>
+</li>
+</ul>
+<h3 id="cartogram-统计地图）"><a href="#cartogram-统计地图）" class="headerlink" title="cartogram (统计地图）"></a>cartogram (统计地图）</h3><ul>
+<li>Distort the shape of geographic regions so that area size directly encodes<br>a data attribute<h3 id="dorling-cartogram-道灵统计地图）"><a href="#dorling-cartogram-道灵统计地图）" class="headerlink" title="dorling cartogram (道灵统计地图）"></a>dorling cartogram (道灵统计地图）</h3></li>
+<li>Each geographic region is represented as non-overlapping circle （Geospatial positions may shift according to circle size）<h3 id="flow-maps"><a href="#flow-maps" class="headerlink" title="flow maps"></a>flow maps</h3><h2 id="treat-spatial-position-as-abstract-data-text"><a href="#treat-spatial-position-as-abstract-data-text" class="headerlink" title="treat spatial position as abstract data (text)"></a>treat spatial position as abstract data (text)</h2><h3 id="tag-cloud"><a href="#tag-cloud" class="headerlink" title="tag cloud"></a>tag cloud</h3></li>
+<li>typically font size - frequency of a certain word</li>
+<li><p>Spatial layout can vary</p>
+<ul>
+<li>According to order of occurrence</li>
+<li>According to frequency</li>
+<li>Alphabetically</li>
+<li>According to available space</li>
+</ul>
+</li>
+<li><p>pros and cons</p>
+<ul>
+<li>+intuitive to read</li>
+<li>-word sizes difficult to compare</li>
+<li>small words difficult to read<h3 id="wordle"><a href="#wordle" class="headerlink" title="wordle"></a>wordle</h3></li>
+</ul>
+</li>
+<li>words are tightly packed <ul>
+<li>effective use of space</li>
+<li>to fill a given shape<h3 id="vertical-tag-cloud"><a href="#vertical-tag-cloud" class="headerlink" title="vertical tag cloud"></a>vertical tag cloud</h3><h3 id="parallel-tag-clouds-x-axis-categories"><a href="#parallel-tag-clouds-x-axis-categories" class="headerlink" title="parallel tag clouds (x-axis = categories)"></a>parallel tag clouds (x-axis = categories)</h3><h3 id="word-tree"><a href="#word-tree" class="headerlink" title="word tree"></a>word tree</h3></li>
+</ul>
+</li>
+</ul>
+<h1 id="color"><a href="#color" class="headerlink" title="color"></a>color</h1><p>effective use of color in visualization<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/JKtUNp5mscPpCHV9.9*us2mc4mD*I3ZdEL*aU6Aximc!/b/dAgBAAAAAAAA&amp;bo=nAQ0AwAAAAADB40!&amp;rf=viewer_4" alt=""></p>
+<h2 id="opponent-process-theory"><a href="#opponent-process-theory" class="headerlink" title="opponent process theory"></a>opponent process theory</h2><ul>
+<li>There are six primary colours, arranged perceptually as opponent pairs, along<br>three axes <ul>
+<li>Black ‐ white</li>
+<li>Red ‐ green</li>
+<li>Yellow ‐ blue</li>
+<li>Six elementary colours<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/GrY6Hj1yMb12HdaYz8UHvbrI*YE*BbppEb93ybe72xQ!/b/dGoBAAAAAAAA&amp;bo=egRcAQAAAAADBwE!&amp;rf=viewer_4" alt=""></li>
+</ul>
+</li>
+</ul>
+<h2 id="color-spaces"><a href="#color-spaces" class="headerlink" title="color spaces"></a>color spaces</h2><blockquote>
+<p>Colour vision is defined by three different receptor types</p>
+</blockquote>
+<ul>
+<li>Numerical description of colour detectable by the human visual system</li>
+</ul>
+<h3 id="RGB-Red-Green-Blue"><a href="#RGB-Red-Green-Blue" class="headerlink" title="RGB = Red, Green, Blue"></a>RGB = Red, Green, Blue</h3><ul>
+<li>used for digital displays</li>
+<li>additive color model</li>
+</ul>
+<h3 id="CMY-Cyan-蓝绿）-Magenta（紫）-Yellow"><a href="#CMY-Cyan-蓝绿）-Magenta（紫）-Yellow" class="headerlink" title="CMY = Cyan(蓝绿）, Magenta（紫）, Yellow"></a>CMY = Cyan(蓝绿）, Magenta（紫）, Yellow</h3><ul>
+<li>Paint, dyes</li>
+<li>Subtractive colour model</li>
+</ul>
+<h3 id="HSL-Hue-Saturation-Lightnes"><a href="#HSL-Hue-Saturation-Lightnes" class="headerlink" title="HSL = Hue, Saturation, Lightnes"></a>HSL = Hue, Saturation, Lightnes</h3><h1 id="“colour”-as-a-visual-variable-channel"><a href="#“colour”-as-a-visual-variable-channel" class="headerlink" title="“colour” as a visual variable/channel"></a>“colour” as a visual variable/channel</h1><h2 id="luminace-value-brightness"><a href="#luminace-value-brightness" class="headerlink" title="luminace/value/brightness"></a>luminace/value/brightness</h2><ul>
+<li>good for ordered data types</li>
+<li>high resolution</li>
+<li>good for shape and edage detection</li>
+<li>Low accuracy of luminance in non‐contiguous(adjacement) regions (surround, background matters)</li>
+</ul>
+<hr>
+<p><strong>rules</strong></p>
+<ul>
+<li>Avoid using grey scale as a method for representing more than 5 numerical value</li>
+<li>Ensure luminance contrast with the background when showing symbols, text or detailed graphics.</li>
+</ul>
+<h2 id="saturation"><a href="#saturation" class="headerlink" title="saturation"></a>saturation</h2><ul>
+<li>good for ordered data types</li>
+<li>low accuracy of saturation in non-cintiguous regions</li>
+<li>the surround matters</li>
+</ul>
+<hr>
+<p><strong>rules</strong></p>
+<ul>
+<li>Avoid using representing more than 5 numerical values.</li>
+<li>Use even less saturation levels when working with small marks.</li>
+<li>Use more saturated colours when colour coding small regions, areas, symbols or<br>thin lines. ( 小点用重色，大点用浅色）</li>
+<li>Use less saturated colours for coding large areas</li>
+</ul>
+<h2 id="hue"><a href="#hue" class="headerlink" title="hue"></a>hue</h2><ul>
+<li>good for categorical data</li>
+<li>low accuracy of distinguishing hue in non-contiguous regions</li>
+<li>the surround matters</li>
+<li>hues are more difficult to distinguish between small mark</li>
+<li>the higher the spatial frequency, the less saturated the colour</li>
+</ul>
+<hr>
+<p><strong>rules</strong></p>
+<ul>
+<li>do not use more than 6-7 hues </li>
+<li>use conventional(normal) hues that people know how to name</li>
+</ul>
+<h2 id="transparency"><a href="#transparency" class="headerlink" title="transparency"></a>transparency</h2><ul>
+<li>Encoding information by decreasing the opacity of a mark</li>
+<li>Is not separable from the other colour variables</li>
+<li>Strong interactions with luminance and saturation </li>
+</ul>
+<h1 id="aesthetic-considerations"><a href="#aesthetic-considerations" class="headerlink" title="aesthetic considerations"></a>aesthetic considerations</h1><ul>
+<li>Complementary colours (strong contrast)</li>
+<li>Analogous colors (harmonious)</li>
+<li>triadic color harmony</li>
+</ul>
+<h2 id="colormaps-颜色表）"><a href="#colormaps-颜色表）" class="headerlink" title="colormaps (颜色表）"></a>colormaps (颜色表）</h2><blockquote>
+<p>Mapping between colour and data values</p>
+</blockquote>
+<ul>
+<li>Categorical (nominal) “qualitative”<br>colourmaps (Segmented colourmaps)</li>
+<li>Ordered colour maps<ul>
+<li>sequential </li>
+<li>diverging</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><strong>rules</strong></p>
+<ul>
+<li>limit to 6-12 levels, especially if regions are not contiguous <ul>
+<li>level attribute (hierarchies)</li>
+<li>focus on most important one</li>
+<li>cosider other visual variables<br><br> <strong> categorical colourmaps </strong> <br></li>
+</ul>
+</li>
+<li>Use easily distinguishable colour</li>
+<li>Consider the luminance contrast against background colour</li>
+<li>Colour may have to be distinguishable in black and white</li>
+<li>Consider colour choices with regard to colour deficiency (green red)</li>
+<li>The appropriate colour map depends on the mark type(small size or large size - saturation)</li>
+<li>Be consistent in your colour mappings across different views</li>
+</ul>
+<p><br><strong> ordered colourmaps(sequential) </strong><br></p>
+<ul>
+<li>For ordered or quantitative data</li>
+<li>Use the magnitude channels of luminance/value or saturation</li>
+<li>Range from minimum to maximum value</li>
+</ul>
+<p><br><strong> ordered colourmaps(diverging) </strong><br></p>
+<ul>
+<li>For ordered or quantitative data</li>
+<li>two hues at the endpoints</li>
+<li>neutral color(中立色） as midpoint</li>
+</ul>
+<p><br><strong> continuous colourmaps </strong><br></p>
+<ul>
+<li>good for showing quantitative attributes (luminance saturation)</li>
+<li>Number of hues depends on the level of structure of the data to be emphasized</li>
+</ul>
+<blockquote>
+<p>lecture 8 75页图可以看<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/4LQfWxXOwqwgSMB6B2B*rNt3Y4HHa33tpOk.*mivOmo!/b/dEQBAAAAAAAA&amp;bo=hAVyAwAAAAADF8I!&amp;rf=viewer_4" alt=""></p>
+</blockquote>
+<h1 id="intercation"><a href="#intercation" class="headerlink" title="intercation"></a>intercation</h1><p>why </p>
+<ul>
+<li>Data can be large and/or complex!</li>
+<li>we can not show everything at once </li>
+<li>A single view can only show one aspect of the data- usually there is more to consider<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/.o21UZmxFZsDUE0ANQbIja7LFx13Bhr2GfJ5afJhC1M!/b/dFYBAAAAAAAA&amp;bo=IAbmAgAAAAADB.A!&amp;rf=viewer_4" alt=""></li>
+</ul>
+<h2 id="interaction-by-intention"><a href="#interaction-by-intention" class="headerlink" title="interaction by intention"></a>interaction by intention</h2><h3 id="select-individual-data-items-links-attributes-levels"><a href="#select-individual-data-items-links-attributes-levels" class="headerlink" title="select (individual data items, links, attributes, levels)"></a>select (individual data items, links, attributes, levels)</h3><ul>
+<li>to highlight aspects </li>
+<li>to get more details</li>
+<li>to rearrange the data in any way <h3 id="explore-navigate"><a href="#explore-navigate" class="headerlink" title="explore/navigate"></a>explore/navigate</h3></li>
+<li>panning : common in maps </li>
+<li>direct walk: automated movement of focus<h3 id="reconfigure-rearrangement-show-me-a-different-arrangement"><a href="#reconfigure-rearrangement-show-me-a-different-arrangement" class="headerlink" title="reconfigure(rearrangement) (show me a different arrangement)"></a>reconfigure(rearrangement) (show me a different arrangement)</h3></li>
+<li>sorting <h3 id="encode-show-me-a-different-representation"><a href="#encode-show-me-a-different-representation" class="headerlink" title="encode  (show me a different representation)"></a>encode  (show me a different representation)</h3></li>
+<li>alter the visual representation</li>
+<li>alter colour encoding, scale of sizes, orientation<h3 id="abstract-elaborate-zoom-show-me-more-or-less-detail"><a href="#abstract-elaborate-zoom-show-me-more-or-less-detail" class="headerlink" title="abstract/elaborate/zoom (show me more or less detail)"></a>abstract/elaborate/zoom (show me more or less detail)</h3></li>
+<li>details on demand</li>
+<li>geometric zooming</li>
+<li>semantic zooming (比如地图缩放地点名具体）<h3 id="filter-（show-me-something-conditionally）"><a href="#filter-（show-me-something-conditionally）" class="headerlink" title="filter （show me something conditionally）"></a>filter （show me something conditionally）</h3></li>
+<li>Traditional filter widgets</li>
+<li>Selections within the visualization as filter input<h3 id="connect-（show-me-related-items）"><a href="#connect-（show-me-related-items）" class="headerlink" title="connect （show me related items）"></a>connect （show me related items）</h3></li>
+<li>single view (position,saturation/transparency.details)</li>
+<li>Single view (Connecting edges between item)</li>
+<li>Multiple views: brushing &amp; linking<h3 id="faceting-data-split-data"><a href="#faceting-data-split-data" class="headerlink" title="faceting data (split data)"></a>faceting data (split data)</h3></li>
+<li>Splitting up the data representations into<ul>
+<li>Multiple juxtaposed and/or coordinate views</li>
+<li>layers</li>
+</ul>
+</li>
+<li>Showing the data from multiple perspectives<ul>
+<li>same attributes in different representations</li>
+<li>different attributes in different views<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/iDsBlpH0ytNnIcnVMgNM0t1FEnQzBYBU5XfHXO3AI6k!/b/dAgBAAAAAAAA&amp;bo=XgTmAQAAAAADB58!&amp;rf=viewer_4" alt=""></li>
+</ul>
+</li>
+</ul>
+<h2 id="latency-amp-interaction-design-responsiveness-is-required"><a href="#latency-amp-interaction-design-responsiveness-is-required" class="headerlink" title="latency &amp; interaction design (responsiveness is required)"></a>latency &amp; interaction design (responsiveness is required)</h2><ul>
+<li>interaction cost</li>
+<li>visual feedback should be provided within less than 1 s</li>
+<li>consider the different aspects contributing to latency (考虑导致延迟的不同方面）？？？</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/13/Random-coefficients-models /">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fangyi Qi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fangyi's Rev">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/13/Random-coefficients-models /" itemprop="url">Random-coefficients-models</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-13T00:30:48+08:00">
+                2018-05-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/13/Random-coefficients-models /#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/05/13/Random-coefficients-models /" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+<h1 id="Random-coefficients-models"><a href="#Random-coefficients-models" class="headerlink" title="Random coefficients models"></a>Random coefficients models</h1><p>![][1]</p>
+<p>THE random effecrs assumend come from a normal distribution with mean 0 and some variance-covariance matrix.<br>![][2]</p>
+<h2 id="model-fitting"><a href="#model-fitting" class="headerlink" title="model fitting"></a>model fitting</h2><p> ML and REML are typical choices and REML is preferred for more realistic variance estima- tes.<br>Model selection works in the same way as for random intercept models. </p>
+<ul>
+<li>REML-based fit criteria can only used to discriminate between models with different random effects/variance components (the fixed effects part of the models being compared must be the same)</li>
+<li>ML-based fit criteria can be used to compare all models with each other (provided the input/response data is the same)</li>
+</ul>
+<blockquote>
+<p>we should look at correlationship between intercept random effect and slope random effect $ \rho $<br>AICc for small samples<br>![][3]</p>
+</blockquote>
+<h2 id="model-assessment"><a href="#model-assessment" class="headerlink" title="model assessment"></a>model assessment</h2><p>Internally studentized residuals </p>
+<p> [1]:<a href="http://m.qpic.cn/psb?/V121Q7A010s4Qs/exBEYSyDR.k74r.NmVNXUWZtMETkMXi1FbkmajHao54!/b/dAgBAAAAAAAA&amp;bo=YgUWAQAAAAADB1I!&amp;rf=viewer_4" target="_blank" rel="noopener">http://m.qpic.cn/psb?/V121Q7A010s4Qs/exBEYSyDR.k74r.NmVNXUWZtMETkMXi1FbkmajHao54!/b/dAgBAAAAAAAA&amp;bo=YgUWAQAAAAADB1I!&amp;rf=viewer_4</a>　<br> [2]:<a href="http://m.qpic.cn/psb?/V121Q7A010s4Qs/TIOqgG.kF.kXkWlg7mdxWPZYiqN5P*Qa1eKqeH738aU!/b/dDIBAAAAAAAA&amp;bo=PgWcAAAAAAADB4U!&amp;rf=viewer_4" target="_blank" rel="noopener">http://m.qpic.cn/psb?/V121Q7A010s4Qs/TIOqgG.kF.kXkWlg7mdxWPZYiqN5P*Qa1eKqeH738aU!/b/dDIBAAAAAAAA&amp;bo=PgWcAAAAAAADB4U!&amp;rf=viewer_4</a><br> [3]:<a href="http://m.qpic.cn/psb?/V121Q7A010s4Qs/ZJ9CmfXeWGVmbR6.uBWftzd7IETTgLO1aa8tRsnM2d0!/b/dAgBAAAAAAAA&amp;bo=rAVWAQAAAAADB9w!&amp;rf=viewer_4" target="_blank" rel="noopener">http://m.qpic.cn/psb?/V121Q7A010s4Qs/ZJ9CmfXeWGVmbR6.uBWftzd7IETTgLO1aa8tRsnM2d0!/b/dAgBAAAAAAAA&amp;bo=rAVWAQAAAAADB9w!&amp;rf=viewer_4</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/12/Random-intercept-mixed-effect-models/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fangyi Qi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fangyi's Rev">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/12/Random-intercept-mixed-effect-models/" itemprop="url">Random-intercept-mixed-effect-models</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-12T00:30:48+08:00">
+                2018-05-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/12/Random-intercept-mixed-effect-models/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/05/12/Random-intercept-mixed-effect-models/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+<h1 id="Random-intercept-mixed-effect-models"><a href="#Random-intercept-mixed-effect-models" class="headerlink" title="Random intercept mixed effect models"></a>Random intercept mixed effect models</h1><p>average behaviour is the same for all individuals. while the baseline levels differ across individuals. </p>
+<p>have some mean level common baseline to all individuals ( $\beta_0 $)</p>
+<p><br><br>each individual is assigend it’s own contribution to the response(u_0i)</p>
+<p>$$ y_{it} = \beta_0 + u_{0i} +\beta_1 * x_{1it} + e_{it} $$</p>
+<p>u0 is the subject-specific ‘adjustment’ to the baseline/intercept parameter. </p>
+<ul>
+<li>assumend to come from some distrinbution with mean 0 and some variance.</li>
+</ul>
+<blockquote>
+<p>assume error to be normal with some correlation within individuals.</p>
+</blockquote>
+<p>![][1]<br>the G matrix is q * q ( q is the number of random effects in the model)</p>
+<h2 id="maximum-likelihood"><a href="#maximum-likelihood" class="headerlink" title="maximum likelihood"></a>maximum likelihood</h2><p>log likelihood function for these model is based on a multivariate Normal distribution.</p>
+<ul>
+<li>maximises the log likelihood for the variance parameter first while treating the fixed effects as known constants.</li>
+<li>after, the fixed effects estimates are found by treating the variance parameters as fixed and finding the values for the $\beta$ which maximise the log-likelihood.</li>
+</ul>
+<blockquote>
+<p>produces variance estimate too samll. this bias is greatest for small samples.</p>
+</blockquote>
+<h2 id="Restricted-Maximu-likelihood"><a href="#Restricted-Maximu-likelihood" class="headerlink" title="Restricted Maximu, likelihood"></a>Restricted Maximu, likelihood</h2><p>eliminating the fixed effects from the likelihood inorder only defined the variance parameter<br><br> produce unbiased variance estimates.</p>
+<h2 id="model-selection"><a href="#model-selection" class="headerlink" title="model selection"></a>model selection</h2><h3 id="nested-models"><a href="#nested-models" class="headerlink" title="nested models"></a>nested models</h3><p>can be compared using LRTs (likelihood ratio tests) using ML or REML results.<br>reduced model must be a special case of the full model( cam be obtained by imposing some constraints on the full model) ( set one or more covariance parameters to 0)</p>
+<ul>
+<li>for ML-based, this comparison is valid for models with different fixed effects and/or covariance structures.</li>
+<li>for REML-based model, comparison is based on restricted likelihood values: 1.discriminate between models with different covariance structures. 2 only works for same fixed effects can not compare different X matrices.</li>
+</ul>
+<h3 id="non-nested-models"><a href="#non-nested-models" class="headerlink" title="non-nested models"></a>non-nested models</h3><p>AIC or AICc<br>(For correlated data the effective sample size (N) is not the same as the apparent sample size）</p>
+<ul>
+<li>under ML, the AIC/AICc can be used to compare models with different fixed effects and random effects models.</li>
+<li>under REML, use AIC/AICc to compare models with the same fixed effecrs structure. </li>
+</ul>
+<p><br></p>
+<ul>
+<li>use REML based AICc to compare different error structures(independence/ar(1)/continous AR(1)) since the fixed effects(model for the mean) are the same.</li>
+</ul>
+<h3 id="parameter-interpretation"><a href="#parameter-interpretation" class="headerlink" title="parameter interpretation"></a>parameter interpretation</h3><p>population average and subject-specific will be the same under normal errors with no link function.</p>
+<h3 id="random-effects-predictions"><a href="#random-effects-predictions" class="headerlink" title="random effects predictions"></a>random effects predictions</h3><p>random effects shrunk towards the mean,</p>
+<ul>
+<li>the random effects predictions will be less widely spread than the coefficients obtained by fitting the effects as fixed.</li>
+</ul>
+<p>the extent that shrinkage depends on the size of the random effects variance,</p>
+<ul>
+<li>if the random effects variance is small. the shrinkage is large. (the spread of subject-specific intercepts are known to be very simialr to each other and close to 0)</li>
+<li>if the random effects variance is large then the shrinkage is small (the spread of subject-specific intercepts are known to be very diffuse)</li>
+</ul>
+<p>the extent that shrinkage depends on the sample size within individuals(ni)</p>
+<ul>
+<li>shrinkage is less for subjests with many repeated measurements(compared to subjects with fewer observation) we have more information with large sample.</li>
+</ul>
+<h3 id="some-inference"><a href="#some-inference" class="headerlink" title="some inference"></a>some inference</h3><p>standard error may be too small that we assumes the variance is know for fixed and random effects’ standard error.<br>bias will be large when :</p>
+<ul>
+<li>the variance parameters are highly uncertain</li>
+<li>the ratio of variance parameters compared with error variance is small(variance parameter/error variance)</li>
+<li><p>large imbalance in the data (lots of missing value)</p>
+</li>
+<li><p>Kenward-Roger adjustment can correct</p>
+</li>
+<li>robust variance estimator (empirical sandwich estimator) use the variance of the residuals directly in the calculation of se (small sample size will not good)<br><br>rather than specilfying correlation structure in the errors, this take into account the observed covariance in the resisudals</li>
+</ul>
+<h3 id="confidence-intervals"><a href="#confidence-intervals" class="headerlink" title="confidence intervals"></a>confidence intervals</h3><p>$$ estiamte \pm t-multiplier \times standard error $$</p>
+<p>Wald test for significance tests.</p>
+<h3 id="model-assessment"><a href="#model-assessment" class="headerlink" title="model assessment"></a>model assessment</h3><h4 id="predictive-power"><a href="#predictive-power" class="headerlink" title="predictive power"></a>predictive power</h4><p>ploting the observed response data versus the population average and subject-specific fitted values<br><br><br>conditional residual:</p>
+<p>![][2]</p>
+<p>and uncontidional residual</p>
+<h4 id="RESIDUAL-ANALYSIS"><a href="#RESIDUAL-ANALYSIS" class="headerlink" title="RESIDUAL ANALYSIS"></a>RESIDUAL ANALYSIS</h4><p>subject-specific residuals (r_it) should show normally distributed and patternless when consider against any covariates.</p>
+<p>Scaled residuals can be used to assess variance and correlation structure of the model. (assumed should be noramlly distributed and uncorrealted)</p>
+<blockquote>
+<p>For normal errors models (such as this), only the variance estimates are typically affected (while the fixed effects estimates are unbiased) if the random effects are non-normal.</p>
+</blockquote>
+<h2 id="influence-diagnostic"><a href="#influence-diagnostic" class="headerlink" title="influence diagnostic"></a>influence diagnostic</h2><p>influential subjects using likelihood distance/ likelihood displacement.(If they largely affect the estimates of the fixed effects the Cook’s D (D) statistic will be relatively large. but not all cases)</p>
+<p> [1]:<a href="http://m.qpic.cn/psb?/V121Q7A010s4Qs/jEAr.0DFwNXOLZd9c2qzZ2pqF4VygeMKrTg31dIckgI!/b/dGYBAAAAAAAA&amp;bo=MARWAgAAAAADB0I!&amp;rf=viewer_4" target="_blank" rel="noopener">http://m.qpic.cn/psb?/V121Q7A010s4Qs/jEAr.0DFwNXOLZd9c2qzZ2pqF4VygeMKrTg31dIckgI!/b/dGYBAAAAAAAA&amp;bo=MARWAgAAAAADB0I!&amp;rf=viewer_4</a>　　<br> [2]:<a href="http://m.qpic.cn/psb?/V121Q7A010s4Qs/E99UHOWhSBW*kRdXIdgyBGQTG5QxQjsqmC3Vo.Otab0!/b/dDABAAAAAAAA&amp;bo=2gWoAQAAAAADB1Q!&amp;rf=viewer_4" target="_blank" rel="noopener">http://m.qpic.cn/psb?/V121Q7A010s4Qs/E99UHOWhSBW*kRdXIdgyBGQTG5QxQjsqmC3Vo.Otab0!/b/dDABAAAAAAAA&amp;bo=2gWoAQAAAAADB1Q!&amp;rf=viewer_4</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/11/GEES/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fangyi Qi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fangyi's Rev">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/11/GEES/" itemprop="url">GEE</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-11T01:30:48+08:00">
+                2018-05-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/11/GEES/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/05/11/GEES/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+<h1 id="Models-for-correlated-data"><a href="#Models-for-correlated-data" class="headerlink" title="Models for correlated data"></a>Models for correlated data</h1><p>GENMOD in SAS return standard linear model<br>return p-value corresponding to chi-square<br>$$ \chi ^2 =(estimate/ standard error)^2$$</p>
+<h1 id="Population-Averaged-Models"><a href="#Population-Averaged-Models" class="headerlink" title="Population Averaged Models"></a>Population Averaged Models</h1><p>$$ y = X\beta +e $$ （data是以正确的顺序order过的）（在本例子中，就是把每个subject插到time order上）</p>
+<p>X- design matrix N<em>p (p is the columns, intercept+coffiencet)<br><br><br>$ \beta $ p</em>1 vector of regression coefficients<br><br><br>e = error matrix N<em>1<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/lAQTxkRJI5ivIf9ERHQ1VS6QdzpK.is9pKupRvWdfk0!/b/dDABAAAAAAAA&amp;bo=uAJwAQAAAAADB.k!&amp;rf=viewer_4" alt="under independent"><br><br><br>e ~ (0, $ \delta^2 $I)<br>I is a N </em> N diagonal matrix </p>
+<h2 id="different-models-for-the-noise"><a href="#different-models-for-the-noise" class="headerlink" title="different models for the noise"></a>different models for the noise</h2><p>divided into $ n_i <em> n_i $ block-diagonal structure for N </em> N error matrix.<br><br><br>empirical autocorrelation functions to investigate corrleation between residuals within blocks.</p>
+<p><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/EF2*JLPdTJV3GLoMH6SWhSI6tnBFdRcVoQRNxfZHr6w!/b/dGoBAAAAAAAA&amp;bo=MAGoAAAAAAADB7s!&amp;rf=viewer_4" alt=""><br>an example of AR(1) block.</p>
+<ul>
+<li>the correlation between measurements 1 hour apart ( in this case) is the correlation coefficient $ \rho $</li>
+<li>2 hours is $ \rho^2 $ (以此类推）<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/0ntOW*0Y837jeB.yLSJ9x3Zy71OXofhS1WSN1CdNGqg!/b/dDABAAAAAAAA&amp;bo=VAI.AQAAAAADB0s!&amp;rf=viewer_4" alt=""><br>this data set contains 2 individuals and 4 observations for each.<br><br><br>in some cases, if the data scenario was different and a group of randomly selected individuals was measured just once each, then we might suspect that all observations within that group (medical centre) have some common correlation.<br><br> the structure only has 1 associated parameter to estimate ( $ \rho $)</li>
+</ul>
+<h2 id="GEEEs-Generalized-Estimating-Equations"><a href="#GEEEs-Generalized-Estimating-Equations" class="headerlink" title="GEEEs Generalized Estimating Equations"></a>GEEEs Generalized Estimating Equations</h2><p>GEEs model the mean response and the association between repeated measures within individuals separately.<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/Enr05b2byGPcUg2s9ohdXiOKUr2PEp*RvjoSgz3ftY8!/b/dDABAAAAAAAA&amp;bo=zgXqAwAAAAADFxA!&amp;rf=viewer_4" alt=""></p>
+<h3 id="obtain-coeffients"><a href="#obtain-coeffients" class="headerlink" title="obtain coeffients"></a>obtain coeffients</h3><p><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/hnPl0CShYhmaQzqNeh1lqUS61ryKszlTtuY9iLRRHt4!/b/dDABAAAAAAAA&amp;bo=eAXUAwAAAAADB4g!&amp;rf=viewer_4" alt=""></p>
+<h3 id="obtain-standard-error"><a href="#obtain-standard-error" class="headerlink" title="obtain standard error"></a>obtain standard error</h3><p>we can estimate ‘model-based’ standard errors using assumed correlation structure, but is riksy unless we knot the correlation structure is reasonable. ( if assumed structure is wrong, standard errors will systematically too large or too small)<br><br></p>
+<p><strong>robust standard errors</strong> based on the product of the sums of the residuals  within panels.</p>
+<ul>
+<li>negative within-panel correlation results in a smaller product of sums than would be obtained under independence.</li>
+<li><p>positive within-panel correlation results in a larger product of sums than would be obtained under independence.</p>
+<blockquote>
+<p>Note: It is not appropriate to choose one model over the other just because the standard errors are smaller!</p>
+</blockquote>
+<blockquote>
+<p>Note: if we use ‘empirical’ standard errors then we don’t need to rely on the model to give us good standard errors (in many cases).</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="comparing-results-under-different-correlation-structures"><a href="#comparing-results-under-different-correlation-structures" class="headerlink" title="comparing results under different correlation structures"></a>comparing results under different correlation structures</h2><p>the model-based standard errors (SEs) were often very different to the empirical standard errors (ESEs)</p>
+<p>总共分了三种correlation matrixs: independent correlation structure, AR(1), unsructured.<br>（怎么比较好坏？ 看se 和ese 对比，如果差不多说明合适）</p>
+<h2 id="model-selection"><a href="#model-selection" class="headerlink" title="model selection"></a>model selection</h2><p>GEEs use QL (quasi-likelihood)<br>QL based or QIC scores.</p>
+<ul>
+<li><strong>QICu</strong> choose between models with different sets of covariates</li>
+<li><strong>QIC(R)</strong> choose between models with the same covariates but different correlation structures.</li>
+</ul>
+<p><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/7.J8aYEKoLGIJ6wnt2zL89MWIDL3n7pZ96muBiGrkI8!/b/dEABAAAAAAAA&amp;bo=dQU4BAAAAAADB24!&amp;rf=viewer_4" alt=""></p>
+<p><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/4VUP*VLbefhql3VvIEQYk5KDv0i.yRUq6l2rkiHJE2I!/b/dFYBAAAAAAAA&amp;bo=NAUiAwAAAAADBzI!&amp;rf=viewer_4" alt=""></p>
+<p>$ \ beta_R $ is the set of coefficients obtained under some specified correlation structure R</p>
+<h3 id="model-assessing-for-GEEs"><a href="#model-assessing-for-GEEs" class="headerlink" title="model assessing for GEEs"></a>model assessing for GEEs</h3><ul>
+<li>if the size of the panels is small and the data are complete, use the unstructured specification</li>
+<li>if the observations within panels are collected across time use a corrleation structure that also incudes a time dependence.</li>
+<li>if the observations are clustered (but not collected over time) use the exchangeeable/ compound symmetry structure.</li>
+<li><p>if the numbers of panels is small then the independence model may be best.</p>
+<blockquote>
+<p>we could not only choose model by QIC(R), should also consider the SE issue.</p>
+</blockquote>
+</li>
+</ul>
+<p>assess the relationship is appropriate  using cumulative sums of residuals over a set of co-ordinates. (systematic over or under-predition across the covariate being considered tell us a problem with linearity)</p>
+<ul>
+<li>the cumulative residuals based on the model are compared with sets of cumulative residuals which are likely to be obtained if the linear model is appropriate.</li>
+<li>a discrepancy between the simulated sets and the cumulative residuals for our model, give evidence that the model is inappropriate.</li>
+<li>this discrepancy between model residuals and those expected under a linear model return a p-value. (small p-value signify a problem with the linear model. p大linear)</li>
+</ul>
+<h3 id="assessing-influential-points-and-individuals"><a href="#assessing-influential-points-and-individuals" class="headerlink" title="assessing influential points and individuals"></a>assessing influential points and individuals</h3><p><strong>deletion diagnostics</strong> assess influence of individual data points and influential individuals</p>
+<p><strong>Cook’s distance measute</strong> assess points outlying<br>is a scaled measure of the distance between the coefficient vectors when the k-th group of observations is deleted from the analysis.<br><br>independence working model does not appear to have any wildly large cook’s distance value.<br>to reduce concerns about influential individuals, one or more individuals </p>
+<h3 id="assessing-predictive-power"><a href="#assessing-predictive-power" class="headerlink" title="assessing predictive power"></a>assessing predictive power</h3><p>$ R^2 $ or  concordance correlation (concordance correlation coefficient measures the agreement between two variables<br>The concordance correlation coefficient is nearly identical to some of the measures called intra-class correlations. )</p>
+<h3 id="hypothesis-testing"><a href="#hypothesis-testing" class="headerlink" title="hypothesis testing"></a>hypothesis testing</h3><p>Wald test (H0: $ \beta_j = 0 $) <br><br>To test if one of the slope coefficients (βj) is zero</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/10/two-dimensional-smoothers/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fangyi Qi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fangyi's Rev">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/10/two-dimensional-smoothers/" itemprop="url">Two_dimensional_smoothers</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-10T15:30:48+08:00">
+                2018-05-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/10/two-dimensional-smoothers/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/05/10/two-dimensional-smoothers/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+<h1 id="Two-dimensional-smoothers"><a href="#Two-dimensional-smoothers" class="headerlink" title="Two dimensional smoothers"></a>Two dimensional smoothers</h1><p>permit the smooth relationship between one covariate and the response to vary with another covariate in a flexible way - inculde interaction terms in the model.</p>
+<p>##TPS Thin plate splines<br>employ a global smoothing parameter that applies across the two dimensional surface.</p>
+<ul>
+<li>a set of knots are chosen from a set of spatial co-ordinates。</li>
+<li>the euclidean/straight line distances between each set of spatial co-ordinates and these knot locations is found; this creates one column of distances</li>
+</ul>
+<p><br>first find the distance between knot and the spaatial location<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/NRBUNyHfxRKn6qr98zFl7EN5jnocW7DbH0fvS8CtWbs!/b/dDEBAAAAAAAA&amp;bo=9gTcAAAAAAADFxw!&amp;rf=viewer_4" alt=""><br>then use the straight-line distance to create columns of the basis matrix.- one column per knot.</p>
+<ul>
+<li>this is the column of the basis matrix for j-th knot, i-th transect and t-th observation.<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/jSbY6WijrepfSwJMNPhCAHf7JRGGEJFEOADmrvBMMVI!/b/dDABAAAAAAAA&amp;bo=bASQAAAAAAADB9o!&amp;rf=viewer_4" alt=""><br>and then used in the linear predictor alongside the linear terms for the spatial co-ordinates and coefficients attached to any other covariates.</li>
+<li>estimation can proceed unpenalised or with a penalty term.</li>
+<li>the basis function increase the value with distance from each knot location.</li>
+</ul>
+<h3 id="model-selection"><a href="#model-selection" class="headerlink" title="model selection"></a>model selection</h3><p> non-nested models can be chosen by comparing AIC/BIC. automatic model selection is unable yet.<br> <br>dredge function in R can help tell smooth but not linearity. (要自己检查linearity）</p>
+<p> <br>in some cases, tje euclidean based smoother return sily answer. (straight line distances between knots unsuitable, in the internal exlusion area 直线距离中间经过的地方可能因为一些原因观测不到任何，比如说有河，或者没观察等， 这个时候不能用直线距离，可以绕一下）</p>
+<p><strong>two dimensional smoothers</strong> should accommodate:</p>
+<ul>
+<li>global patterns(applys across large parts of the survey area)</li>
+<li>local patterns(only apply in parts of the survey area)</li>
+<li>internal exclusion zones </li>
+</ul>
+<h2 id="CReSS-complex-region-spatial-smoother"><a href="#CReSS-complex-region-spatial-smoother" class="headerlink" title="CReSS (complex region spatial smoother)"></a>CReSS (complex region spatial smoother)</h2><p>CReSS based smoothers rely on sensible allocated knots and location, coefficients are estimated without penalty.<br><br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/ozrZOgmQ3RoQDZa4ybHL19Dq3ozc11Hi*fS5vKAsR0c!/b/dDMBAAAAAAAA&amp;bo=CAQwAQAAAAADBx8!&amp;rf=viewer_4" alt=""><br>the specficiation process is similar.<br>the basis function is different from TPS basis. values in the columns decline with distance from each knot.</p>
+<h3 id="SALSA2D"><a href="#SALSA2D" class="headerlink" title="SALSA2D"></a>SALSA2D</h3><p>can help automatic select knots, locations and range parameter.<br>choices we have:<br>adding<br>moving<br>dropping</p>
+<ul>
+<li>knots location ( have each basis function centred about an ovserved spatial location for maximum support from the data) using ‘space-filling algorithm to choose knots location. ensure maximum coverage for gice number of knots. （knots not to be average, some are global some are local)</li>
+<li>knots number ( the algorithm tends to ‘converge’ on a similar number of knots for the final model (regardless of the starting number of knots))</li>
+<li>effective range of each knot (the effective range of the basis includes at least one point and possibly all points.)</li>
+</ul>
+<p><br>K-fold cv based on omitting correlated blocks, can be used to choose between models with different numbers of knots ,rather than knots loaction for a particular knot number.</p>
+<blockquote>
+<p>CReSS based models are linear in their parameters and thus can be fitted using a routine fitting engine and SALSA2D can be used to choose model flexibility.<br><br> we require confidence inter- vals about these differences (for any model) to make any conclusions about whether these changes are statistically significant - or could be due to chance.</p>
+</blockquote>
+<h3 id="limitations"><a href="#limitations" class="headerlink" title="limitations"></a>limitations</h3><p>time consuming, good a[[roximations to highly uneven two dimensional functions.</p>
+<h3 id="check-assumption-residual-independent"><a href="#check-assumption-residual-independent" class="headerlink" title="check assumption -residual independent"></a>check assumption -residual independent</h3><p>empirical run test (inadequate for overdispersed models ) (manually obtain the reference distribution rather than using the normal distribution) <br><br>acf plot</p>
+<h3 id="for-correlation"><a href="#for-correlation" class="headerlink" title="for correlation"></a>for correlation</h3><p><strong>robust standard errors</strong> which allows corrleation. </p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/08/MT5757 (1)/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fangyi Qi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fangyi's Rev">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/08/MT5757 (1)/" itemprop="url">未命名</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-08T00:33:25+08:00">
+                2018-05-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/08/MT5757 (1)/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/05/08/MT5757 (1)/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="MT5757"><a href="#MT5757" class="headerlink" title="MT5757　　"></a>MT5757　　</h1><script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<p>标签（空格分隔）： MT5757</p>
+<hr>
+<p>Tips:ignore disperison may lead to include unsignificant covariate</p>
+<p>overdispersed data — quasi-AIC </p>
+<p>$$QAIC=-((2log-likelihood)/dispersion-parameter- estimate)+2k$$</p>
+<p>k=the number of model coefficients (intercept and slope coefficients+1 for the dispersion parameter estimare).</p>
+<hr>
+<h2 id="Model-assumptions"><a href="#Model-assumptions" class="headerlink" title="Model assumptions:"></a>Model assumptions:</h2><ol>
+<li>Collinearity</li>
+<li>Mean-variance relationship </li>
+<li>Independent data</li>
+<li>Covariate relationships are well described as linear on the link scale</li>
+</ol>
+<hr>
+<blockquote>
+<p>Collinearity<br>is a measure of the similarity between covariates and occurs when one of more of the explanatory variables can be written as a linear combination of the other explanatory variables.</p>
+</blockquote>
+<p><strong>collinearity amounts to tring to fit a plane supported by a line fits the data about as well as any other plane.</strong></p>
+<p>VIF variance inflation factors </p>
+<p>$$VIF=\cfrac{1}{(1-R^2)}$$</p>
+<p>The closer $R^2$ is to 1, the higher the collinearity and the VIF.<br>GVIFs - any of the covariates have more than one parameter associated with them. (df&gt;1)</p>
+<p>Influence the slope parameter | the size of the standard errors</p>
+<h2 id="Model-complexity"><a href="#Model-complexity" class="headerlink" title="Model complexity:"></a>Model complexity:</h2><blockquote>
+<p><strong>signal:</strong> the underlying mean function of the process<br><strong>noise:</strong> the variablity of the points about the underlying mean function</p>
+</blockquote>
+<h3 id="Overly-complex-models"><a href="#Overly-complex-models" class="headerlink" title="Overly complex models"></a>Overly complex models</h3><p>has many parameters and so will model both the signal and the noise in the input data.<br>low bias and high variance </p>
+<h3 id="Overly-simplistic-models"><a href="#Overly-simplistic-models" class="headerlink" title="Overly simplistic models"></a>Overly simplistic models</h3><p>has too few parameters and models neither the signal nor the noise elements in the input data very well.<br>high bias and low </p>
+<h3 id="The-bias-variance-trade-off"><a href="#The-bias-variance-trade-off" class="headerlink" title="The bias-variance trade-off"></a>The bias-variance trade-off</h3><p><img src="https://i.stack.imgur.com/alkeM.png" alt="此处输入图片的描述"></p>
+<ol>
+<li>the trainning sample is used to fit the model.</li>
+<li>the validation samples is used to estimate the expected prediction error for that model (since it is data unseen by the model).</li>
+<li>a model is then chosen by finding the lowest expected prediction error across the range of candidate models (which will likely vary in the number and content of the covariates)</li>
+</ol>
+<p>k-fold cross-validation:</p>
+<pre><code>- splitting the data into k samples
+- leaving out some subset of the data
+- prediction the response values in the omitted set using the bulk of the data
+</code></pre><p>EPE (expected prediction error)<br>$$\Sigma\Sigma(y^*-y)^2    $$</p>
+<h2 id="Ridge-Regression"><a href="#Ridge-Regression" class="headerlink" title="Ridge Regression"></a>Ridge Regression</h2><p>penalise coefficients closer to 0 than they would be under ordinary R^2  / ML based estimation</p>
+<p>the variance of the fitted functions across several data sets from the same process is reduced, but at the cost of bias.<br>￼<img src="https://i.stack.imgur.com/w0ldM.png" alt=""><br>￼￼￼￼<img src="https://svbtleusercontent.com/h8b1k5xswvw8ta.jpg" alt="min cv is the best point for lambda"></p>
+<p>the loss function </p>
+<p>our aim is to minimize the loss function. </p>
+<p><img src="https://img-blog.csdn.net/20170815211631865?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHp3MTk5MjAzMjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="此处输入图片的描述"></p>
+<p>in ridge regression, the penality term is $\lambda\Sigma\beta^2$. thus all covariates will be shrink close to 0 but never = 0.</p>
+<h2 id="Laaso-Regression"><a href="#Laaso-Regression" class="headerlink" title="Laaso Regression"></a>Laaso Regression</h2><p>least absolute shirnkage and selection operator<br>estimate covariate shrink towards 0 and can be estimated as exactly 0.</p>
+<ul>
+<li>when n&gt;p, ridge regression tends to return better predictions if<br>there are high correlations amongst the covariates.</li>
+<li>when p&gt;n it selects n variables at most.</li>
+<li><strong>The lasso method does not group predictors and so if there a group of highly correlated predictors, the lasso tends to select one of<br>these variables from this group in an arbitrary way.</strong></li>
+</ul>
+<h2 id="Elastic-Net"><a href="#Elastic-Net" class="headerlink" title="Elastic Net"></a>Elastic Net</h2><p>a combination of lasso and ridge regression.<br><img src="/Users/fred/Workspace/github/hexo/source/_posts/1525710077850.jpg" alt=""></p>
+<h1 id="Temporal-autocorrelation"><a href="#Temporal-autocorrelation" class="headerlink" title="Temporal autocorrelation"></a>Temporal autocorrelation</h1><p>if the model does not capture the patterns in the response data, then some of this pattern  will remain in model residuals and present as positive/negeative autocorrelation.</p>
+<h2 id="Runs-Test-（游程检验）"><a href="#Runs-Test-（游程检验）" class="headerlink" title="Runs Test （游程检验）"></a>Runs Test （游程检验）</h2><p>Runs test can diagnose non-indepeendence in model residuals. </p>
+<ul>
+<li>this test assigns a sign to each residual: positive residuals are labelled +1 amd negative residuals are labelled -1.</li>
+<li>too few(long) runs provide evidence of positive correlation, while too many(short) runs provide evidence of negative correlation.</li>
+<li><p>negative correlation indicates the residuals have a periodicity change. （-+—+-+—+-+—+-+—+ 随机得太过规律）</p>
+<pre><code>correlation(left) ------------------------------independent(right)
+</code></pre><p><img src="/Users/fred/Workspace/github/hexo/source/_posts/run.png" alt=""></p>
+</li>
+</ul>
+<p>the runs test compares the observed number of runs(T) with what’s expeected under independence E(T) and adjusted for the variance V(T) to give a test statistiv <strong>W</strong> which has a standard Normal(0,1) distribution.</p>
+<p> Values within (-2,+2) independence p&gt;0.05</p>
+<p> Positive corrleation (Wz &lt; -2). Negative correlation (Wz &gt;2).</p>
+<h3 id="Positive-correlation-affects-models-selection"><a href="#Positive-correlation-affects-models-selection" class="headerlink" title="Positive correlation affects models selection"></a>Positive correlation affects models selection</h3><p> can lead us to conclude that irrelevant variables are important.</p>
+<p> some noise may regard as a part of data, therefore some unimportant variables are added.</p>
+<p> GEEs(Generalized Estimating Equations) can help</p>
+<h3 id="Nonlinearity-on-the-link-scale"><a href="#Nonlinearity-on-the-link-scale" class="headerlink" title="Nonlinearity on the link scale"></a>Nonlinearity on the link scale</h3><p>the model assumes the relationships between the covariates and the response on the link scale are linear.</p>
+<p>partial residual plots exhibit curvature indicate the relationship is not well discribed.</p>
+<blockquote>
+<p><strong>Tukey’s test</strong> a quadratic term term can be fitted for each predictor (eg. Depth^2) in the regression model as a test for nonlinearity. z/t test. small p-value indicare nonlinearities on link scale.</p>
+</blockquote>
+<p>GAMs(Generalized additive models permit smooth functions can help)</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/07/Generalized-Additive-models/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fangyi Qi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fangyi's Rev">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/07/Generalized-Additive-models/" itemprop="url">Generalized_Additive_models</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-07T19:30:48+08:00">
+                2018-05-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/07/Generalized-Additive-models/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/05/07/Generalized-Additive-models/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
+<h1 id="Generalized-Additive-models"><a href="#Generalized-Additive-models" class="headerlink" title="Generalized Additive models"></a>Generalized Additive models</h1><p>an extension of GLMs that can implement a wide range of nonlinear relatioships between the response variable and the covariates.</p>
+<h2 id="polynomials"><a href="#polynomials" class="headerlink" title="polynomials"></a>polynomials</h2><p> $$ \eta_{it} = \beta_0 + \sum_{i=1}^d \beta_j(x_{ijt})^d  $$</p>
+<blockquote>
+<p>eg. cubic polynomial d=3 $ \eta = \beta_0 + \beta_1x + \beta_2x^2 + \beta_3x^3 + \beta_4DC $<br> ￼￼￼<img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/GXMjw3Di9c8LJDFMDY2bOGX3NWyInRH.Iqb74H.rhGE!/b/dDABAAAAAAAA&amp;bo=ygEoAgAAAAARB9E!&amp;rf=viewer_4" alt=""><br> d*N ploynomial basis matrix</p>
+</blockquote>
+<h2 id="model-fitting"><a href="#model-fitting" class="headerlink" title="model fitting"></a>model fitting</h2><p>via least-squares/maximum likelihood/ quasi-likelihood</p>
+<h2 id="limitations"><a href="#limitations" class="headerlink" title="limitations"></a>limitations</h2><ul>
+<li>the number of basis matrix get very large quickly can diffcult to be estimated</li>
+<li>exhibit oscillatory behaviour for high degree </li>
+<li>evenly smooth, do not allow more flexibility</li>
+<li>global function each row contribute in same way</li>
+<li>the fitted curve for high depth values affected by the low depth values.</li>
+</ul>
+<h1 id="Truncated-power-basis-截断幂）"><a href="#Truncated-power-basis-截断幂）" class="headerlink" title="Truncated power basis (截断幂）"></a>Truncated power basis (截断幂）</h1><p>more locally defined. each column only has non-zero values between a certain x-value ( the j-th ‘knot’) and the maximum x-value.<br> <img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/Fw7t8hrh7Wt2mUndCIRSJvBc2yNNbNp1*F8qwaHnC5M!/b/dDIBAAAAAAAA&amp;bo=qgV8AQAAAAADF.A!&amp;rf=viewer_4" alt=""><br> <img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/NFHaUn6u5Gn4jSqXEM7yjjdC8DfpRvscc4tgLtwhcNk!/b/dDMBAAAAAAAA&amp;bo=HAKEAgAAAAADB7o!&amp;rf=viewer_4" alt=""><br> <img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/kmO8DWykMAtyvadZjLydZkBM4WNqWJ9Vp*9GspU7fWA!/b/dGcBAAAAAAAA&amp;bo=FAJ.AgAAAAADB0g!&amp;rf=viewer_4" alt=""><br> the added term only works at the last power (eg. x^3 is the highest power. k1,k2,k3 only follow x^3)</p>
+<h2 id="Limitations"><a href="#Limitations" class="headerlink" title="Limitations"></a>Limitations</h2><ul>
+<li>the number of basis matrix get very large quickly can diffcult to be estimated</li>
+<li>the columns of the basis matrix can also be prohibitively collinear</li>
+<li>they are still global functions beyond k knot locations.</li>
+<li>the high depth values can still be affected to some extent by the relationship for the very low depth values. vice versa. （高的地方不够高低的地方不够低）</li>
+</ul>
+<h1 id="B-splines"><a href="#B-splines" class="headerlink" title="B-splines"></a>B-splines</h1><p>piecewise polynomial functions which join smoothly at ‘knots’.</p>
+<h3 id="model-flexibility"><a href="#model-flexibility" class="headerlink" title="model flexibility:"></a>model flexibility:</h3><ul>
+<li>the higher the degree</li>
+<li>the number of knots</li>
+<li>the location of knot (specifying knots close together results in amore flexible function)</li>
+</ul>
+<h3 id="knots-place"><a href="#knots-place" class="headerlink" title="knots place"></a>knots place</h3><ul>
+<li>with support from the data ( in areas with observations)</li>
+<li>where the biggest changes are likely to occur in the covariate relationship</li>
+<li>so there are at least 3 unique covariate values between them (to enable estimation of the curve between knots) (如果离太近，两个knots之间没有data或者data太少）</li>
+</ul>
+<h3 id="compare-with-truncated-power-serires"><a href="#compare-with-truncated-power-serires" class="headerlink" title="compare with truncated power serires"></a>compare with truncated power serires</h3><ul>
+<li>the value in the basis matrix are constrained to lie between 0 to 1. void estimation issues.</li>
+<li>prohibitively high collinearity is avoided because the columns of the basis only contribute non-zero values for parts of the x-range.</li>
+</ul>
+<h3 id="model-selection"><a href="#model-selection" class="headerlink" title="model selection"></a>model selection</h3><ul>
+<li>the flexibility of B-spline is fully dicated by the number of knots, or jointly determined by features and a penalty term.</li>
+<li>RS(regression spline) is fully determined by knots and their locations, PRS(penalised regression spline) and SS(smoothing spline) also employ a penalty during fitting process.</li>
+</ul>
+<h2 id="Regression-splines"><a href="#Regression-splines" class="headerlink" title="Regression splines"></a>Regression splines</h2><p> <strong>manual knot allocation </strong>: need to specify the degree of the basis, (the number of knots and the covariate values of the knots location.) more important </p>
+<h3 id="benifits"><a href="#benifits" class="headerlink" title="benifits"></a>benifits</h3><p>covariate relationship which are unevenly smooth can easily be accommodated.</p>
+<ul>
+<li>several knots can be allocated to the covariate range where the flexibility requirements are greatest</li>
+<li>few knots can be allocatedto where the relationship is asily approximate by a quadratic/cubic fucntion(depending on the order of the basis)</li>
+</ul>
+<h3 id="benifits-1"><a href="#benifits-1" class="headerlink" title="benifits"></a>benifits</h3><p>B spline can return highly nonlinear curves. but are linear in their parameters.<br>can be fitted using ML or Ql. </p>
+<h3 id="SALSA"><a href="#SALSA" class="headerlink" title="SALSA"></a>SALSA</h3><p>spatially adaptive local smoothing algorithm. – can automated model select the number and location of knots.</p>
+<blockquote>
+<p> works well for function require different amounts of flexibility in different parts of the covariate range.</p>
+</blockquote>
+<h2 id="penalized-regression-spline"><a href="#penalized-regression-spline" class="headerlink" title="penalized regression spline"></a>penalized regression spline</h2><p>in contrast of regression spline, PRS make some arbitrary choices for the number and location of knots and instead rely on a penalty term to control model flexibility.<br>rely on a penalty term to control model flexibility.</p>
+<ul>
+<li>the degree of the basis function </li>
+<li>a large number of knots ( 10 knots is routine) which are invariably equally spaced using quantiles. </li>
+<li>a penalty term to control curve complexity </li>
+</ul>
+<blockquote>
+<p>the penalty term:</p>
+<pre><code>- a smoothing parameter ($ \lambda $) user choosen by user
+- the coefficients from the model
+</code></pre></blockquote>
+<h2 id="model-fitting-1"><a href="#model-fitting-1" class="headerlink" title="model fitting"></a>model fitting</h2><p>the mininmised function<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/4P8geo6g0vKj8Nr3agWuRzjAssL6H4UcdKSXVMhumbY!/b/dIMAAAAAAAAA&amp;bo=9gKaAAAAAAADB0w!&amp;rf=viewer_4" alt="can extend to more covariates, each covariate has its own smoothing parameter"></p>
+<ul>
+<li>j is the number of coefficients associated with the smooth term <br> $ \lambda $ = 0 result in an interplotating function <br> $ \lambda $ = $ \infty $ result in an straight line</li>
+</ul>
+<h3 id="model-selection-1"><a href="#model-selection-1" class="headerlink" title="model selection"></a>model selection</h3><p>GCV (generalized cross-validation can use to choose smoothing parameter)<br>estimate a different smoothing parameter for each covariate.</p>
+<blockquote>
+<p>GCV is a funtion of fitting the data based on an associated set of smoothing parameters and model complexity(edf)</p>
+</blockquote>
+<p>edf (effective degrees of freedom) quantifies the number of parametersx used to fit the model. (each penalized coefficient contributes less than 1 df. (big penalty for each covariate, edf should larger than 10)</p>
+<h3 id="limitations-1"><a href="#limitations-1" class="headerlink" title="limitations"></a>limitations</h3><p>easy and quick to fit but golbal function. there fore if flexibility is required in the covariates relationship is uneven across the covariate range.</p>
+<h2 id="smoothing-spline"><a href="#smoothing-spline" class="headerlink" title="smoothing spline"></a>smoothing spline</h2><p>smoothing spline avoid the knots selection issue. allocating each unique x a knot and control flexibility at the fitting stage using a penalty term.</p>
+<h3 id="penalty"><a href="#penalty" class="headerlink" title="penalty"></a>penalty</h3><p>involved squared secon derivative (根号二阶导数）<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/H8wX9j7FIEdFHVU0TXFotem2R9gcvSMN8FS*lBy43ow!/b/dDABAAAAAAAA&amp;bo=GAOWAAAAAAADF78!&amp;rf=viewer_4" alt=""><br>the integrated squared second derivative describe the roughness of the curve.</p>
+<ul>
+<li>The bigger amplitude and steeper slope indicated rougher and larger first and second derivatives.</li>
+<li>penalty ensures the positive and negative second derivatives count equally.</li>
+</ul>
+<p>GCV can be used to fit the model<br><br> <em>local scoring algorithm</em> starts all covariates at some initial position and then updataes each smooth term separately while fixing the other covariates in the model at their current position.</p>
+<h3 id="limitations-2"><a href="#limitations-2" class="headerlink" title="limitations"></a>limitations</h3><p>models may not converge. time consuming.</p>
+<h2 id="regression-spline-with-automated-model-selcetion-via-SALSA"><a href="#regression-spline-with-automated-model-selcetion-via-SALSA" class="headerlink" title="regression spline with automated model selcetion via SALSA"></a>regression spline with automated model selcetion via SALSA</h2><p>specify the model manually and choose both the number and the location of knots.</p>
+<ul>
+<li>SALSA also tries to improve model fit in a more radical way by switching each current knot location to the point returning the maximum Pearson residual.</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/18/XGBOOST/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fangyi Qi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fangyi's Rev">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/18/XGBOOST/" itemprop="url">未命名</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-18T06:57:34+08:00">
+                2018-04-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/04/18/XGBOOST/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/04/18/XGBOOST/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>#XGBoost <code>Extreme Gradient Boosting</code></p>
+<h2 id="Format"><a href="#Format" class="headerlink" title="Format"></a>Format</h2><p>Taylor’s Formula <img src="https://pic4.zhimg.com/v2-06efcb9748440208abf28ccb3946b829_b.jpg" alt=""></p>
+<p>The first-order Taylor expansion<br><img src="https://pic2.zhimg.com/v2-77ee4bc0ba17f045c2a5488ebb1417d0_b.jpg" alt=""></p>
+<p>The second-order Taylor expansion<br><img src="https://pic3.zhimg.com/v2-692e5b646fb6ea1085f222b4dfdff8a2_b.jpg" alt=""></p>
+<h2 id="Paramters"><a href="#Paramters" class="headerlink" title="Paramters"></a>Paramters</h2>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/18/host/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fangyi Qi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fangyi's Rev">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/18/host/" itemprop="url">未命名</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-18T05:11:53+08:00">
+                2018-04-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/04/18/host/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/04/18/host/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>##</p>
+<p>welcome disga</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/17/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fangyi Qi">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fangyi's Rev">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/17/hello-world/" itemprop="url">Hello World</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-17T06:56:57+08:00">
+                2018-04-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/04/17/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/04/17/hello-world/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/header.jpg"
+                alt="Fangyi Qi" />
+            
+              <p class="site-author-name" itemprop="name">Fangyi Qi</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/归档">
+              
+                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Fangyi Qi</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'mjY1fW7rrO6jHeUvFJVsRjRo-gzGzoHsz',
+        appKey: 'Xhm8t8vjooDNlV4wX9XP2Vgm',
+        placeholder: 'Say something ~',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
