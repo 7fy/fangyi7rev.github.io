@@ -2,72 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/05/17/Visualization/</loc>
-    
-    <lastmod>2018-05-18T02:32:23.408Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/05/13/Random-coefficients-models%20/</loc>
-    
-    <lastmod>2018-05-12T23:33:19.152Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/05/12/Random-intercept-mixed-effect-models/</loc>
-    
-    <lastmod>2018-05-12T23:04:38.493Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/05/11/GEES/</loc>
-    
-    <lastmod>2018-05-11T23:31:25.767Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/05/10/two-dimensional-smoothers/</loc>
-    
-    <lastmod>2018-05-11T00:23:28.969Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/05/07/Generalized-Additive-models/</loc>
-    
-    <lastmod>2018-05-10T21:28:12.710Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/05/08/MT5757%20(1)/</loc>
-    
-    <lastmod>2018-05-07T18:42:40.993Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/04/18/host/</loc>
-    
-    <lastmod>2018-04-17T22:59:26.576Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2018/04/18/XGBOOST/</loc>
     
     <lastmod>2018-04-17T22:57:34.917Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/04/17/hello-world/</loc>
-    
-    <lastmod>2018-04-16T22:56:57.962Z</lastmod>
     
   </url>
   
