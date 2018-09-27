@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Fangyi&#39;s Rev</title>
+  <title>FredQ&#39;s Rev</title>
   
-  
+  <subtitle>Awake, Arise,&lt;br /&gt; Or Be Forever Fallen</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-07T18:42:40.993Z</updated>
+  <updated>2018-05-18T02:32:23.408Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,126 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Data Visualizaion</title>
+    <link href="http://yoursite.com/2018/05/17/Visualization/"/>
+    <id>http://yoursite.com/2018/05/17/Visualization/</id>
+    <published>2018-05-17T05:30:48.000Z</published>
+    <updated>2018-05-18T02:32:23.408Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
+
+&lt;h1
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Random-coefficients-models</title>
+    <link href="http://yoursite.com/2018/05/13/Random-coefficients-models%20/"/>
+    <id>http://yoursite.com/2018/05/13/Random-coefficients-models /</id>
+    <published>2018-05-12T16:30:48.000Z</published>
+    <updated>2018-05-12T23:33:19.152Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
+
+&lt;h1
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Random-intercept-mixed-effect-models</title>
+    <link href="http://yoursite.com/2018/05/12/Random-intercept-mixed-effect-models/"/>
+    <id>http://yoursite.com/2018/05/12/Random-intercept-mixed-effect-models/</id>
+    <published>2018-05-11T16:30:48.000Z</published>
+    <updated>2018-05-12T23:04:38.493Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
+
+&lt;h1
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>GEE</title>
+    <link href="http://yoursite.com/2018/05/11/GEES/"/>
+    <id>http://yoursite.com/2018/05/11/GEES/</id>
+    <published>2018-05-10T17:30:48.000Z</published>
+    <updated>2018-05-11T23:31:25.767Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
+
+&lt;h1
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Two_dimensional_smoothers</title>
+    <link href="http://yoursite.com/2018/05/10/two-dimensional-smoothers/"/>
+    <id>http://yoursite.com/2018/05/10/two-dimensional-smoothers/</id>
+    <published>2018-05-10T07:30:48.000Z</published>
+    <updated>2018-05-11T00:23:28.969Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
+
+&lt;h1
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -30,6 +150,30 @@
         
         
           &lt;h1 id=&quot;MT5757&quot;&gt;&lt;a href=&quot;#MT5757&quot; class=&quot;headerlink&quot; title=&quot;MT5757　　&quot;&gt;&lt;/a&gt;MT5757　　&lt;/h1&gt;&lt;script type=&quot;text/javascript&quot; async
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Generalized_Additive_models</title>
+    <link href="http://yoursite.com/2018/05/07/Generalized-Additive-models/"/>
+    <id>http://yoursite.com/2018/05/07/Generalized-Additive-models/</id>
+    <published>2018-05-07T11:30:48.000Z</published>
+    <updated>2018-05-10T21:28:12.710Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
+
+&lt;h1
         
       
     
