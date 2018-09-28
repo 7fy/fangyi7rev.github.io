@@ -85,17 +85,14 @@
 
 
 
-<meta name="description" content="Random intercept mixed effect modelsaverage behaviour is the same for all individuals. while the baseline levels differ across individuals.  have some mean level common baseline to all individuals (">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Random-intercept-mixed-effect-models">
-<meta property="og:url" content="http://yoursite.com/2018/05/12/Random-intercept-mixed-effect-models/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="categories">
+<meta property="og:url" content="http://yoursite.com/categories/index.html">
 <meta property="og:site_name" content="FredQ&#39;s Rev">
-<meta property="og:description" content="Random intercept mixed effect modelsaverage behaviour is the same for all individuals. while the baseline levels differ across individuals.  have some mean level common baseline to all individuals (">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-09-27T10:30:29.753Z">
+<meta property="og:updated_time" content="2018-09-28T02:55:28.024Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Random-intercept-mixed-effect-models">
-<meta name="twitter:description" content="Random intercept mixed effect modelsaverage behaviour is the same for all individuals. while the baseline levels differ across individuals.  have some mean level common baseline to all individuals (">
+<meta name="twitter:title" content="categories">
 
 
 
@@ -125,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/05/12/Random-intercept-mixed-effect-models/"/>
+  <link rel="canonical" href="http://yoursite.com/categories/"/>
 
 
 
 
 
-  <title>Random-intercept-mixed-effect-models | FredQ's Rev</title>
+  <title>categories | FredQ's Rev</title>
   
 
 
@@ -308,225 +305,40 @@
 
   <div id="posts" class="posts-expand">
     
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/12/Random-intercept-mixed-effect-models/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fangyi Qi">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/header.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="FredQ's Rev">
-    </span>
-
     
+    
+    <div class="post-block page">
       <header class="post-header">
 
-        
-        
-          <h2 class="post-title" itemprop="name headline">Random-intercept-mixed-effect-models</h2>
-        
+	<h2 class="post-title" itemprop="name headline">categories</h2>
 
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
+
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+        
+        
+          <div class="category-all-page">
+            <div class="category-all-title">
+                暂无分类
+            </div>
+            <div class="category-all">
               
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-12T00:30:48+08:00">
-                2018-05-12
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/05/12/Random-intercept-mixed-effect-models/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/05/12/Random-intercept-mixed-effect-models/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+            </div>
+          </div>
+        
+      </div>
       
       
-
-      
-        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
-<h1 id="Random-intercept-mixed-effect-models"><a href="#Random-intercept-mixed-effect-models" class="headerlink" title="Random intercept mixed effect models"></a>Random intercept mixed effect models</h1><p>average behaviour is the same for all individuals. while the baseline levels differ across individuals. </p>
-<p>have some mean level common baseline to all individuals ( $\beta_0 $)</p>
-<p><br><br>each individual is assigend it’s own contribution to the response(u_0i)</p>
-<p>$$ y_{it} = \beta_0 + u_{0i} +\beta_1 * x_{1it} + e_{it} $$</p>
-<p>u0 is the subject-specific ‘adjustment’ to the baseline/intercept parameter. </p>
-<ul>
-<li>assumend to come from some distrinbution with mean 0 and some variance.</li>
-</ul>
-<blockquote>
-<p>assume error to be normal with some correlation within individuals.</p>
-</blockquote>
-<a id="more"></a>
-<p>![][1]<br>the G matrix is q * q ( q is the number of random effects in the model)</p>
-<h2 id="maximum-likelihood"><a href="#maximum-likelihood" class="headerlink" title="maximum likelihood"></a>maximum likelihood</h2><p>log likelihood function for these model is based on a multivariate Normal distribution.</p>
-<ul>
-<li>maximises the log likelihood for the variance parameter first while treating the fixed effects as known constants.</li>
-<li>after, the fixed effects estimates are found by treating the variance parameters as fixed and finding the values for the $\beta$ which maximise the log-likelihood.</li>
-</ul>
-<blockquote>
-<p>produces variance estimate too samll. this bias is greatest for small samples.</p>
-</blockquote>
-<h2 id="Restricted-Maximu-likelihood"><a href="#Restricted-Maximu-likelihood" class="headerlink" title="Restricted Maximu, likelihood"></a>Restricted Maximu, likelihood</h2><p>eliminating the fixed effects from the likelihood inorder only defined the variance parameter<br><br> produce unbiased variance estimates.</p>
-<h2 id="model-selection"><a href="#model-selection" class="headerlink" title="model selection"></a>model selection</h2><h3 id="nested-models"><a href="#nested-models" class="headerlink" title="nested models"></a>nested models</h3><p>can be compared using LRTs (likelihood ratio tests) using ML or REML results.<br>reduced model must be a special case of the full model( cam be obtained by imposing some constraints on the full model) ( set one or more covariance parameters to 0)</p>
-<ul>
-<li>for ML-based, this comparison is valid for models with different fixed effects and/or covariance structures.</li>
-<li>for REML-based model, comparison is based on restricted likelihood values: 1.discriminate between models with different covariance structures. 2 only works for same fixed effects can not compare different X matrices.</li>
-</ul>
-<h3 id="non-nested-models"><a href="#non-nested-models" class="headerlink" title="non-nested models"></a>non-nested models</h3><p>AIC or AICc<br>(For correlated data the effective sample size (N) is not the same as the apparent sample size）</p>
-<ul>
-<li>under ML, the AIC/AICc can be used to compare models with different fixed effects and random effects models.</li>
-<li>under REML, use AIC/AICc to compare models with the same fixed effecrs structure. </li>
-</ul>
-<p><br></p>
-<ul>
-<li>use REML based AICc to compare different error structures(independence/ar(1)/continous AR(1)) since the fixed effects(model for the mean) are the same.</li>
-</ul>
-<h3 id="parameter-interpretation"><a href="#parameter-interpretation" class="headerlink" title="parameter interpretation"></a>parameter interpretation</h3><p>population average and subject-specific will be the same under normal errors with no link function.</p>
-<h3 id="random-effects-predictions"><a href="#random-effects-predictions" class="headerlink" title="random effects predictions"></a>random effects predictions</h3><p>random effects shrunk towards the mean,</p>
-<ul>
-<li>the random effects predictions will be less widely spread than the coefficients obtained by fitting the effects as fixed.</li>
-</ul>
-<p>the extent that shrinkage depends on the size of the random effects variance,</p>
-<ul>
-<li>if the random effects variance is small. the shrinkage is large. (the spread of subject-specific intercepts are known to be very simialr to each other and close to 0)</li>
-<li>if the random effects variance is large then the shrinkage is small (the spread of subject-specific intercepts are known to be very diffuse)</li>
-</ul>
-<p>the extent that shrinkage depends on the sample size within individuals(ni)</p>
-<ul>
-<li>shrinkage is less for subjests with many repeated measurements(compared to subjects with fewer observation) we have more information with large sample.</li>
-</ul>
-<h3 id="some-inference"><a href="#some-inference" class="headerlink" title="some inference"></a>some inference</h3><p>standard error may be too small that we assumes the variance is know for fixed and random effects’ standard error.<br>bias will be large when :</p>
-<ul>
-<li>the variance parameters are highly uncertain</li>
-<li>the ratio of variance parameters compared with error variance is small(variance parameter/error variance)</li>
-<li><p>large imbalance in the data (lots of missing value)</p>
-</li>
-<li><p>Kenward-Roger adjustment can correct</p>
-</li>
-<li>robust variance estimator (empirical sandwich estimator) use the variance of the residuals directly in the calculation of se (small sample size will not good)<br><br>rather than specilfying correlation structure in the errors, this take into account the observed covariance in the resisudals</li>
-</ul>
-<h3 id="confidence-intervals"><a href="#confidence-intervals" class="headerlink" title="confidence intervals"></a>confidence intervals</h3><p>$$ estiamte \pm t-multiplier \times standard error $$</p>
-<p>Wald test for significance tests.</p>
-<h3 id="model-assessment"><a href="#model-assessment" class="headerlink" title="model assessment"></a>model assessment</h3><h4 id="predictive-power"><a href="#predictive-power" class="headerlink" title="predictive power"></a>predictive power</h4><p>ploting the observed response data versus the population average and subject-specific fitted values<br><br><br>conditional residual:</p>
-<p>![][2]</p>
-<p>and uncontidional residual</p>
-<h4 id="RESIDUAL-ANALYSIS"><a href="#RESIDUAL-ANALYSIS" class="headerlink" title="RESIDUAL ANALYSIS"></a>RESIDUAL ANALYSIS</h4><p>subject-specific residuals (r_it) should show normally distributed and patternless when consider against any covariates.</p>
-<p>Scaled residuals can be used to assess variance and correlation structure of the model. (assumed should be noramlly distributed and uncorrealted)</p>
-<blockquote>
-<p>For normal errors models (such as this), only the variance estimates are typically affected (while the fixed effects estimates are unbiased) if the random effects are non-normal.</p>
-</blockquote>
-<h2 id="influence-diagnostic"><a href="#influence-diagnostic" class="headerlink" title="influence diagnostic"></a>influence diagnostic</h2><p>influential subjects using likelihood distance/ likelihood displacement.(If they largely affect the estimates of the fixed effects the Cook’s D (D) statistic will be relatively large. but not all cases)</p>
-<p> [1]:<a href="http://m.qpic.cn/psb?/V121Q7A010s4Qs/jEAr.0DFwNXOLZd9c2qzZ2pqF4VygeMKrTg31dIckgI!/b/dGYBAAAAAAAA&amp;bo=MARWAgAAAAADB0I!&amp;rf=viewer_4" target="_blank" rel="noopener">http://m.qpic.cn/psb?/V121Q7A010s4Qs/jEAr.0DFwNXOLZd9c2qzZ2pqF4VygeMKrTg31dIckgI!/b/dGYBAAAAAAAA&amp;bo=MARWAgAAAAADB0I!&amp;rf=viewer_4</a>　　<br> [2]:<a href="http://m.qpic.cn/psb?/V121Q7A010s4Qs/E99UHOWhSBW*kRdXIdgyBGQTG5QxQjsqmC3Vo.Otab0!/b/dDABAAAAAAAA&amp;bo=2gWoAQAAAAADB1Q!&amp;rf=viewer_4" target="_blank" rel="noopener">http://m.qpic.cn/psb?/V121Q7A010s4Qs/E99UHOWhSBW*kRdXIdgyBGQTG5QxQjsqmC3Vo.Otab0!/b/dDABAAAAAAAA&amp;bo=2gWoAQAAAAADB1Q!&amp;rf=viewer_4</a></p>
-
       
     </div>
     
     
     
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2018/05/10/two-dimensional-smoothers/" rel="next" title="Two_dimensional_smoothers">
-                <i class="fa fa-chevron-left"></i> Two_dimensional_smoothers
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/05/13/Random-coefficients-models /" rel="prev" title="Random-coefficients-models">
-                Random-coefficients-models <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-
-    <div class="post-spread">
-      
-    </div>
   </div>
 
 
@@ -564,17 +376,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -643,22 +446,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Random-intercept-mixed-effect-models"><span class="nav-number">1.</span> <span class="nav-text">Random intercept mixed effect models</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#maximum-likelihood"><span class="nav-number">1.1.</span> <span class="nav-text">maximum likelihood</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Restricted-Maximu-likelihood"><span class="nav-number">1.2.</span> <span class="nav-text">Restricted Maximu, likelihood</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#model-selection"><span class="nav-number">1.3.</span> <span class="nav-text">model selection</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#nested-models"><span class="nav-number">1.3.1.</span> <span class="nav-text">nested models</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#non-nested-models"><span class="nav-number">1.3.2.</span> <span class="nav-text">non-nested models</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#parameter-interpretation"><span class="nav-number">1.3.3.</span> <span class="nav-text">parameter interpretation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#random-effects-predictions"><span class="nav-number">1.3.4.</span> <span class="nav-text">random effects predictions</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#some-inference"><span class="nav-number">1.3.5.</span> <span class="nav-text">some inference</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#confidence-intervals"><span class="nav-number">1.3.6.</span> <span class="nav-text">confidence intervals</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#model-assessment"><span class="nav-number">1.3.7.</span> <span class="nav-text">model assessment</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#predictive-power"><span class="nav-number">1.3.7.1.</span> <span class="nav-text">predictive power</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#RESIDUAL-ANALYSIS"><span class="nav-number">1.3.7.2.</span> <span class="nav-text">RESIDUAL ANALYSIS</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#influence-diagnostic"><span class="nav-number">1.4.</span> <span class="nav-text">influence diagnostic</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       

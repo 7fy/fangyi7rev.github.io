@@ -940,7 +940,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 20px;
   font-size: 14px;
-  color: #fff;
+  color: #808080;
   background: transparent;
   border: 2px solid #222;
   text-decoration: none;
@@ -1067,7 +1067,7 @@ pre .javascript .function {
   background: #222;
   font-size: 12px;
   opacity: 1;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   text-align: center;
   -webkit-transform: translateZ(0);
@@ -1816,7 +1816,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fe0eaa;
+  background: #65c94f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2624,10 +2624,13 @@ hr {
   height: 2px;
 }
 .main-inner {
-  margin-top: 80px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 200px;
 }
 .header {
-  background: url("../image/back.png");
+  background: url("../image/back.png") no-repeat;
+  background-size: 2200px 280px;
 }
 .header-inner {
   padding: 50px 800px 0px 20px;
@@ -2651,7 +2654,7 @@ hr {
   float: left;
   margin-top: -50px;
   padding-top: 50px;
-  border-left: 15px solid #fff;
+  border-left: 13px solid #fff;
 }
 @media (max-width: 767px) {
   .site-meta {
@@ -2674,7 +2677,7 @@ hr {
   font-size: 80px;
   font-family: Impact;
   font-weight: bolder;
-  line-height: 60pt;
+  line-height: 45pt;
 }
 @media (max-width: 767px) {
   .site-meta .site-title {
@@ -2691,12 +2694,6 @@ hr {
   .site-meta .site-subtitle {
     line-height: 34px;
   }
-}
-.use-motion .logo-line-before i {
-  left: -100%;
-}
-.use-motion .logo-line-after i {
-  right: -100%;
 }
 .site-subtitle {
   display: block;
