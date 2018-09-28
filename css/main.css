@@ -445,11 +445,11 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: 700px;
+  width: 600px;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
-    width: 900px;
+    width: 600px;
   }
 }
 .main {
@@ -457,11 +457,11 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 600px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
-    width: 900px;
+    width: 600px;
   }
 }
 .footer {
@@ -474,11 +474,11 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: 700px;
+  width: 600px;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
-    width: 900px;
+    width: 600px;
   }
 }
 pre,
@@ -1816,7 +1816,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f21aa3;
+  background: #bff6ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2630,7 +2630,7 @@ hr {
 }
 .header {
   background: url("../image/back.png") no-repeat;
-  background-size: 2200px 280px;
+  background-size: 100%;
 }
 .header-inner {
   padding: 50px 800px 0px 20px;
@@ -2895,7 +2895,7 @@ hr {
 }
 .footer {
   margin-top: 80px;
-  padding: 5px 0;
+  padding: 5px 0px 0px 0px;
   background-color: rgba(0,0,0,0.8);
   color: #666;
 }
