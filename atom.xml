@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-27T10:30:25.520Z</updated>
+  <updated>2018-09-28T03:43:49.660Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,178 +17,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Random-coefficients-models</title>
-    <link href="http://yoursite.com/2018/05/13/Random-coefficients-models%20/"/>
-    <id>http://yoursite.com/2018/05/13/Random-coefficients-models /</id>
-    <published>2018-05-12T16:30:48.000Z</published>
-    <updated>2018-09-27T10:30:25.520Z</updated>
+    <title>GEEs</title>
+    <link href="http://yoursite.com/2018/09/28/GEEs/"/>
+    <id>http://yoursite.com/2018/09/28/GEEs/</id>
+    <published>2018-09-28T03:40:41.000Z</published>
+    <updated>2018-09-28T03:43:49.660Z</updated>
     
     <summary type="html">
     
       &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
 
-&lt;h1 id=&quot;Random-coefficients-models&quot;&gt;&lt;a href=&quot;#Random-coefficients-models&quot; class=&quot;headerlink&quot; title=&quot;Random coefficients models&quot;&gt;&lt;/a&gt;Random coefficients models&lt;/h1&gt;&lt;p&gt;![][1]&lt;/p&gt;
-&lt;p&gt;THE random effecrs assumend come from a normal distribution with mean 0 and some variance-covariance matrix.&lt;br&gt;![][2]&lt;/p&gt;
-&lt;h2 id=&quot;model-fitting&quot;&gt;&lt;a href=&quot;#model-fitting&quot; class=&quot;headerlink&quot; title=&quot;model fitting&quot;&gt;&lt;/a&gt;model fitting&lt;/h2&gt;&lt;p&gt; ML and REML are typical choices and REML is preferred for more realistic variance estima- tes.&lt;br&gt;Model selection works in the same way as for random intercept models. &lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Random-intercept-mixed-effect-models</title>
-    <link href="http://yoursite.com/2018/05/12/Random-intercept-mixed-effect-models/"/>
-    <id>http://yoursite.com/2018/05/12/Random-intercept-mixed-effect-models/</id>
-    <published>2018-05-11T16:30:48.000Z</published>
-    <updated>2018-09-27T10:30:29.753Z</updated>
-    
-    <summary type="html">
-    
-      &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
-
-&lt;h1 id=&quot;Random-intercept-mixed-effect-models&quot;&gt;&lt;a href=&quot;#Random-intercept-mixed-effect-models&quot; class=&quot;headerlink&quot; title=&quot;Random intercept mixed effect models&quot;&gt;&lt;/a&gt;Random intercept mixed effect models&lt;/h1&gt;&lt;p&gt;average behaviour is the same for all individuals. while the baseline levels differ across individuals. &lt;/p&gt;
-&lt;p&gt;have some mean level common baseline to all individuals ( $\beta_0 $)&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;each individual is assigend it’s own contribution to the response(u_0i)&lt;/p&gt;
-&lt;p&gt;$$ y_{it} = \beta_0 + u_{0i} +\beta_1 * x_{1it} + e_{it} $$&lt;/p&gt;
-&lt;p&gt;u0 is the subject-specific ‘adjustment’ to the baseline/intercept parameter. &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;assumend to come from some distrinbution with mean 0 and some variance.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;assume error to be normal with some correlation within individuals.&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Two_dimensional_smoothers</title>
-    <link href="http://yoursite.com/2018/05/10/two-dimensional-smoothers/"/>
-    <id>http://yoursite.com/2018/05/10/two-dimensional-smoothers/</id>
-    <published>2018-05-10T07:30:48.000Z</published>
-    <updated>2018-09-27T10:30:35.730Z</updated>
-    
-    <summary type="html">
-    
-      &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
-
-&lt;h1 id=&quot;Two-dimensional-smoothers&quot;&gt;&lt;a href=&quot;#Two-dimensional-smoothers&quot; class=&quot;headerlink&quot; title=&quot;Two dimensional smoothers&quot;&gt;&lt;/a&gt;Two dimensional smoothers&lt;/h1&gt;&lt;p&gt;permit the smooth relationship between one covariate and the response to vary with another covariate in a flexible way - inculde interaction terms in the model.&lt;/p&gt;
-&lt;p&gt;##TPS Thin plate splines&lt;br&gt;employ a global smoothing parameter that applies across the two dimensional surface.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;a set of knots are chosen from a set of spatial co-ordinates。&lt;/li&gt;
-&lt;li&gt;the euclidean/straight line distances between each set of spatial co-ordinates and these knot locations is found; this creates one column of distances&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/05/08/GEES/"/>
-    <id>http://yoursite.com/2018/05/08/GEES/</id>
-    <published>2018-05-07T18:30:48.910Z</published>
-    <updated>2018-09-28T03:00:49.003Z</updated>
-    
-    <summary type="html">
-    
-      &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
-
-&lt;hr&gt;
-&lt;p&gt;title: GEE&lt;br&gt;date: 2018-05-11 01:30:48&lt;br&gt;tags:[statistics]&lt;br&gt;categories:statistics&lt;/p&gt;
-&lt;hr&gt;
 &lt;h1 id=&quot;Models-for-correlated-data&quot;&gt;&lt;a href=&quot;#Models-for-correlated-data&quot; class=&quot;headerlink&quot; title=&quot;Models for correlated data&quot;&gt;&lt;/a&gt;Models for correlated data&lt;/h1&gt;&lt;p&gt;GENMOD in SAS return standard linear model&lt;br&gt;return p-value corresponding to chi-square&lt;br&gt;$$ \chi ^2 =(estimate/ standard error)^2$$&lt;/p&gt;
 &lt;h1 id=&quot;Population-Averaged-Models&quot;&gt;&lt;a href=&quot;#Population-Averaged-Models&quot; class=&quot;headerlink&quot; title=&quot;Population Averaged Models&quot;&gt;&lt;/a&gt;Population Averaged Models&lt;/h1&gt;&lt;p&gt;$$ y = X\beta +e $$ （data是以正确的顺序order过的）（在本例子中，就是把每个subject插到time order上）&lt;/p&gt;
 &lt;p&gt;X- design matrix N&lt;em&gt;p (p is the columns, intercept+coffiencet)&lt;br&gt;&lt;br&gt;&lt;br&gt;$ \beta $ p&lt;/em&gt;1 vector of regression coefficients&lt;br&gt;&lt;br&gt;&lt;br&gt;e = error matrix N&lt;em&gt;1&lt;br&gt;&lt;img src=&quot;http://m.qpic.cn/psb?/V121Q7A010s4Qs/lAQTxkRJI5ivIf9ERHQ1VS6QdzpK.is9pKupRvWdfk0!/b/dDABAAAAAAAA&amp;amp;bo=uAJwAQAAAAADB.k!&amp;amp;rf=viewer_4&quot; alt=&quot;under independent&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;e ~ (0, $ \delta^2 $I)&lt;br&gt;I is a N &lt;/em&gt; N diagonal matrix &lt;/p&gt;
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/05/08/MT5757%20(1)/"/>
-    <id>http://yoursite.com/2018/05/08/MT5757 (1)/</id>
-    <published>2018-05-07T16:33:25.872Z</published>
-    <updated>2018-09-28T02:51:32.244Z</updated>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;p&gt;title:MT5757&lt;br&gt;date:2018-10-28 21:32:21&lt;br&gt;type:”categories”&lt;br&gt;layout:”categories”&lt;br&gt;tags:[statistics, overdisperison]&lt;br&gt;categories:statistics &lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;MT5757&quot;&gt;&lt;a href=&quot;#MT5757&quot; class=&quot;headerlink&quot; title=&quot;MT5757　　&quot;&gt;&lt;/a&gt;MT5757　　&lt;/h1&gt;&lt;script type=&quot;text/javascript&quot; async src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
-&lt;/script&gt;
-
-
-&lt;hr&gt;
-&lt;p&gt;Tips:ignore disperison may lead to include unsignificant covariate&lt;/p&gt;
-&lt;p&gt;overdispersed data — quasi-AIC &lt;/p&gt;
-&lt;p&gt;$$QAIC=-((2log-likelihood)/dispersion-parameter- estimate)+2k$$&lt;/p&gt;
-&lt;p&gt;k=the number of model coefficients (intercept and slope coefficients+1 for the dispersion parameter estimare).&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;Model-assumptions&quot;&gt;&lt;a href=&quot;#Model-assumptions&quot; class=&quot;headerlink&quot; title=&quot;Model assumptions:&quot;&gt;&lt;/a&gt;Model assumptions:&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;Collinearity&lt;/li&gt;
-&lt;li&gt;Mean-variance relationship &lt;/li&gt;
-&lt;li&gt;Independent data&lt;/li&gt;
-&lt;li&gt;Covariate relationships are well described as linear on the link scale&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Collinearity&lt;br&gt;is a measure of the similarity between covariates and occurs when one of more of the explanatory variables can be written as a linear combination of the other explanatory variables.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;collinearity amounts to tring to fit a plane supported by a line fits the data about as well as any other plane.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;VIF variance inflation factors &lt;/p&gt;
-&lt;p&gt;$$VIF=\cfrac{1}{(1-R^2)}$$&lt;/p&gt;
-    
-    </summary>
+      <category term="statistics" scheme="http://yoursite.com/categories/statistics/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>Generalized_Additive_models</title>
-    <link href="http://yoursite.com/2018/05/07/Generalized-Additive-models/"/>
-    <id>http://yoursite.com/2018/05/07/Generalized-Additive-models/</id>
-    <published>2018-05-07T11:30:48.000Z</published>
-    <updated>2018-09-27T10:29:57.301Z</updated>
-    
-    <summary type="html">
-    
-      &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
-
-&lt;h1 id=&quot;Generalized-Additive-models&quot;&gt;&lt;a href=&quot;#Generalized-Additive-models&quot; class=&quot;headerlink&quot; title=&quot;Generalized Additive models&quot;&gt;&lt;/a&gt;Generalized Additive models&lt;/h1&gt;&lt;p&gt;an extension of GLMs that can implement a wide range of nonlinear relatioships between the response variable and the covariates.&lt;/p&gt;
-&lt;h2 id=&quot;polynomials&quot;&gt;&lt;a href=&quot;#polynomials&quot; class=&quot;headerlink&quot; title=&quot;polynomials&quot;&gt;&lt;/a&gt;polynomials&lt;/h2&gt;&lt;p&gt; $$ \eta_{it} = \beta_0 + \sum_{i=1}^d \beta_j(x_{ijt})^d  $$&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;eg. cubic polynomial d=3 $ \eta = \beta_0 + \beta_1x + \beta_2x^2 + \beta_3x^3 + \beta_4DC $&lt;br&gt; ￼￼￼&lt;img src=&quot;http://m.qpic.cn/psb?/V121Q7A010s4Qs/GXMjw3Di9c8LJDFMDY2bOGX3NWyInRH.Iqb74H.rhGE!/b/dDABAAAAAAAA&amp;amp;bo=ygEoAgAAAAARB9E!&amp;amp;rf=viewer_4&quot; alt=&quot;&quot;&gt;&lt;br&gt; d*N ploynomial basis matrix&lt;br&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/04/18/XGBOOST/"/>
-    <id>http://yoursite.com/2018/04/18/XGBOOST/</id>
-    <published>2018-04-17T22:57:34.917Z</published>
-    <updated>2018-09-27T10:29:00.136Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;#苏梦园是大猪猪 &lt;code&gt;Extreme Gradient Boosting&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Format&quot;&gt;&lt;a href=&quot;#Format&quot; class=&quot;headerlink&quot; title=&quot;Format&quot;&gt;&lt;/a&gt;Format&lt;/h2&gt;&lt;p&gt;T苏梦园猪猪猪大猪猪苏梦园 &lt;img src=&quot;https://pic4.zhimg.com/v2-06efcb9748440208abf28ccb3946b829_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;The first-order Taylor expansion&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-77ee4bc0ba17f045c2a5488ebb1417d0_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;The second-order Taylor expansion&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-692e5b646fb6ea1085f222b4dfdff8a2_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Paramters&quot;&gt;&lt;a href=&quot;#Paramters&quot; class=&quot;headerlink&quot; title=&quot;Paramters&quot;&gt;&lt;/a&gt;Paramters&lt;/h2&gt;
-    
-    </summary>
-    
+      <category term="statistics" scheme="http://yoursite.com/tags/statistics/"/>
     
   </entry>
   
