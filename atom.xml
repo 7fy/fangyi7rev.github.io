@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-23T12:51:57.659Z</updated>
+  <updated>2018-11-23T12:41:36.810Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/11/23/%E6%8C%87%E6%A0%87%E4%BD%93%E7%B3%BB/"/>
-    <id>http://yoursite.com/2018/11/23/指标体系/</id>
-    <published>2018-11-23T12:43:04.597Z</published>
-    <updated>2018-11-23T12:51:57.659Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
-
-&lt;hr&gt;
-&lt;p&gt;title:
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title></title>
@@ -60,6 +35,36 @@
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>指标体系</title>
+    <link href="http://yoursite.com/2018/11/23/%E6%8C%87%E6%A0%87%E4%BD%93%E7%B3%BB/"/>
+    <id>http://yoursite.com/2018/11/23/指标体系/</id>
+    <published>2018-11-22T16:00:00.000Z</published>
+    <updated>2018-11-23T12:53:44.880Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;
+
+
+
+&lt;h1 id=&quot;指标体系&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="work" scheme="http://yoursite.com/categories/work/"/>
+    
+    
+      <category term="work" scheme="http://yoursite.com/tags/work/"/>
     
   </entry>
   
