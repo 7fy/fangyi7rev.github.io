@@ -85,13 +85,13 @@
 
 
 
-<meta name="description" content="Models for correlated dataGENMOD in SAS return standard linear modelreturn p-value corresponding to chi-square$$ \chi ^2 =(estimate/ standard error)^2$$ Population Averaged Models$$ y = X\beta +e $$">
+<meta name="description" content="Models for correlated dataGENMOD in SAS return standard linear modelreturn p-value corresponding to chi-square  \chi ^2 =(estimate/ standard error)^2Population Averaged Modelsy = X\beta +e （data是以正确">
 <meta name="keywords" content="statistics">
 <meta property="og:type" content="article">
 <meta property="og:title" content="GEEs">
 <meta property="og:url" content="http://yoursite.com/2018/09/28/GEEs/index.html">
 <meta property="og:site_name" content="FredQ&#39;s Rev">
-<meta property="og:description" content="Models for correlated dataGENMOD in SAS return standard linear modelreturn p-value corresponding to chi-square$$ \chi ^2 =(estimate/ standard error)^2$$ Population Averaged Models$$ y = X\beta +e $$">
+<meta property="og:description" content="Models for correlated dataGENMOD in SAS return standard linear modelreturn p-value corresponding to chi-square  \chi ^2 =(estimate/ standard error)^2Population Averaged Modelsy = X\beta +e （data是以正确">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://m.qpic.cn/psb?/V121Q7A010s4Qs/lAQTxkRJI5ivIf9ERHQ1VS6QdzpK.is9pKupRvWdfk0!/b/dDABAAAAAAAA&bo=uAJwAQAAAAADB.k!&rf=viewer_4">
 <meta property="og:image" content="http://m.qpic.cn/psb?/V121Q7A010s4Qs/EF2*JLPdTJV3GLoMH6SWhSI6tnBFdRcVoQRNxfZHr6w!/b/dGoBAAAAAAAA&bo=MAGoAAAAAAADB7s!&rf=viewer_4">
@@ -103,7 +103,7 @@
 <meta property="og:updated_time" content="2018-09-28T03:43:49.660Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GEEs">
-<meta name="twitter:description" content="Models for correlated dataGENMOD in SAS return standard linear modelreturn p-value corresponding to chi-square$$ \chi ^2 =(estimate/ standard error)^2$$ Population Averaged Models$$ y = X\beta +e $$">
+<meta name="twitter:description" content="Models for correlated dataGENMOD in SAS return standard linear modelreturn p-value corresponding to chi-square  \chi ^2 =(estimate/ standard error)^2Population Averaged Modelsy = X\beta +e （data是以正确">
 <meta name="twitter:image" content="http://m.qpic.cn/psb?/V121Q7A010s4Qs/lAQTxkRJI5ivIf9ERHQ1VS6QdzpK.is9pKupRvWdfk0!/b/dDABAAAAAAAA&bo=uAJwAQAAAAADB.k!&rf=viewer_4">
 
 
@@ -431,8 +431,8 @@
       
         <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
-<h1 id="Models-for-correlated-data"><a href="#Models-for-correlated-data" class="headerlink" title="Models for correlated data"></a>Models for correlated data</h1><p>GENMOD in SAS return standard linear model<br>return p-value corresponding to chi-square<br>$$ \chi ^2 =(estimate/ standard error)^2$$</p>
-<h1 id="Population-Averaged-Models"><a href="#Population-Averaged-Models" class="headerlink" title="Population Averaged Models"></a>Population Averaged Models</h1><p>$$ y = X\beta +e $$ （data是以正确的顺序order过的）（在本例子中，就是把每个subject插到time order上）</p>
+<h1 id="Models-for-correlated-data"><a href="#Models-for-correlated-data" class="headerlink" title="Models for correlated data"></a>Models for correlated data</h1><p>GENMOD in SAS return standard linear model<br>return p-value corresponding to chi-square </p>
+<script type="math/tex; mode=display">\chi ^2 =(estimate/ standard error)^2</script><h1 id="Population-Averaged-Models"><a href="#Population-Averaged-Models" class="headerlink" title="Population Averaged Models"></a>Population Averaged Models</h1><p><script type="math/tex">y = X\beta +e</script> （data是以正确的顺序order过的）（在本例子中，就是把每个subject插到time order上）</p>
 <p>X- design matrix N<em>p (p is the columns, intercept+coffiencet)<br><br><br>$ \beta $ p</em>1 vector of regression coefficients<br><br><br>e = error matrix N<em>1<br><img src="http://m.qpic.cn/psb?/V121Q7A010s4Qs/lAQTxkRJI5ivIf9ERHQ1VS6QdzpK.is9pKupRvWdfk0!/b/dDABAAAAAAAA&amp;bo=uAJwAQAAAAADB.k!&amp;rf=viewer_4" alt="under independent"><br><br><br>e ~ (0, $ \delta^2 $I)<br>I is a N </em> N diagonal matrix </p>
 <a id="more"></a>
 <h2 id="different-models-for-the-noise"><a href="#different-models-for-the-noise" class="headerlink" title="different models for the noise"></a>different models for the noise</h2><p>divided into $ n_i <em> n_i $ block-diagonal structure for N </em> N error matrix.<br><br><br>empirical autocorrelation functions to investigate corrleation between residuals within blocks.</p>
@@ -450,8 +450,6 @@
 <li><p>positive within-panel correlation results in a larger product of sums than would be obtained under independence.</p>
 <blockquote>
 <p>Note: It is not appropriate to choose one model over the other just because the standard errors are smaller!</p>
-</blockquote>
-<blockquote>
 <p>Note: if we use ‘empirical’ standard errors then we don’t need to rely on the model to give us good standard errors (in many cases).</p>
 </blockquote>
 </li>
@@ -1227,6 +1225,8 @@
   
 
   
+  
+
 
   
 
